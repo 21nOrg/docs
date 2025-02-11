@@ -21,7 +21,6 @@ pagination_label: Custom label    # Used in prev/next navigation
 # pagination_prev: prev-doc-id      # Custom previous page in pagination
 
 # Display
-displayed_sidebar: memotronSidebar  # Which sidebar to display
 hide_sidebar: false                # Hide the sidebar
 custom_edit_url: "url"            # Custom edit URL
 draft: false                      # Mark as draft (won't be published)

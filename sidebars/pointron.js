@@ -11,12 +11,13 @@ const sidebars = {
     {
       type: "category",
       label: "Getting Started",
+      collapsed: false,
       items: ["pointron/quickstart", "pointron/installation"],
     },
     {
       type: "category",
       label: "Product deep dive",
-      items: ["common/collections"],
+      items: ["pointron/features/tasks", "features/collections"],
     },
   ],
 };

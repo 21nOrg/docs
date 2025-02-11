@@ -16,7 +16,7 @@ const sidebars = {
     {
       type: "category",
       label: "Product deep dive",
-      items: ["memotron/core", "common/collections"],
+      items: ["memotron/core", "features/collections"],
     },
   ],
 };

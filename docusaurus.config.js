@@ -1,45 +1,144 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+require("dotenv").config();
+
 const { themes } = require("prism-react-renderer");
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
 
-function getCurrentApp() {
-  const app = process.env.APP_NAME || "memotron";
+function resolveApp() {
+  const app = process.env.APP_NAME || "pointron";
+  console.log("app", app);
   return app.toLowerCase();
 }
 
 function getSidebarPath() {
-  const app = getCurrentApp();
+  const app = resolveApp();
   return require.resolve(`./sidebars/${app}.js`);
 }
 
 function getSidebarId() {
-  const app = getCurrentApp();
+  const app = resolveApp();
   return `${app}Sidebar`;
+}
+
+function resolveAppUrl() {
+  const app = resolveApp();
+  return `https://${app}.app`;
+}
+
+function resolveNavBarItems() {
+  const pagesStr = process.env.PAGES || "docs,faqs,roadmap,changelog";
+  const pages = pagesStr.split(",");
+  const app = resolveApp();
+  let items = [];
+
+  if (pages.includes("docs")) {
+    items.push({
+      type: "docSidebar",
+      position: "left",
+      label: "Docs",
+      sidebarId: getSidebarId(),
+    });
+  }
+
+  if (pages.includes("api")) {
+    items.push({
+      type: "docSidebar",
+      docsPluginId: "api",
+      position: "left",
+      label: "API",
+      sidebarId: "apiSidebar",
+    });
+  }
+
+  if (pages.includes("guides")) {
+    items.push({
+      type: "docSidebar",
+      docsPluginId: "guides",
+      position: "left",
+      label: "Guides",
+      sidebarId: "guidesSidebar",
+    });
+  }
+
+  if (pages.includes("faqs")) {
+    items.push({
+      position: "left",
+      label: "FAQs",
+      to: `${app}/faqs`,
+    });
+  }
+
+  if (pages.includes("roadmap")) {
+    items.push({
+      position: "left",
+      label: "Roadmap",
+      to: `${app}/roadmap`,
+    });
+  }
+
+  if (pages.includes("changelog")) {
+    items.push({
+      type: "docSidebar",
+      position: "right",
+      label: "Changelog",
+      docsPluginId: `${app}Changelog`,
+      sidebarId: `${app}ChangelogSidebar`,
+    });
+  }
+
+  return [
+    ...items,
+    {
+      href: resolveAppUrl(),
+      label: "Go to app",
+      position: "right",
+      className: "button button--secondary",
+    },
+    {
+      type: "search",
+      position: "right",
+    },
+  ];
 }
 
 const titleConfig = {
   memotron: {
-    title: "Memotron docs",
+    title: "Memotron",
     tagline: "Your memory atlas",
+    favicon: "img/memotron.ico",
+    logo: {
+      light: "img/memotron-light.png",
+      dark: "img/memotron-dark.png",
+    },
   },
   pointron: {
-    title: "Pointron docs",
+    title: "Pointron",
     tagline: "Your focus haven",
+    favicon: "img/pointron.ico",
+    logo: {
+      light: "img/pointron-light.png",
+      dark: "img/pointron-dark.png",
+    },
   },
   default: {
-    title: "Nucleus docs",
+    title: "Nucleus",
     tagline: "The everything productivity app",
+    favicon: "img/nucleus.ico",
+    logo: {
+      light: "img/nucleus-light.png",
+      dark: "img/nucleus-dark.png",
+    },
   },
 };
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: titleConfig[getCurrentApp()]?.title || titleConfig.default.title,
-  tagline: titleConfig[getCurrentApp()]?.tagline || titleConfig.default.tagline,
-  favicon: "img/favicon.ico",
+  title: titleConfig[resolveApp()]?.title || titleConfig.default.title,
+  tagline: titleConfig[resolveApp()]?.tagline || titleConfig.default.tagline,
+  favicon: titleConfig[resolveApp()]?.favicon || titleConfig.default.favicon,
 
   // Set the production url of your site here
   url: process.env.SITE_URL || "https://docs.memotron.app",
@@ -93,6 +192,24 @@ const config = {
         sidebarPath: require.resolve("./sidebars/guides.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "memotronChangelog",
+        path: "changelog/memotron",
+        routeBasePath: "changelog/memotron",
+        sidebarPath: require.resolve("./sidebars/memotron-changelog.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "pointronChangelog",
+        path: "changelog/pointron",
+        routeBasePath: "changelog/pointron",
+        sidebarPath: require.resolve("./sidebars/pointron-changelog.js"),
+      },
+    ],
   ],
 
   // Custom fields to store runtime data
@@ -115,70 +232,17 @@ const config = {
       },
       navbar: {
         style: "primary",
-        title: titleConfig[getCurrentApp()]?.title || titleConfig.default.title,
+        title: "",
         logo: {
           alt: "Logo",
-          src: "img/logo.svg",
+          src:
+            titleConfig[resolveApp()]?.logo?.light ||
+            titleConfig.default.logo.light,
+          srcDark:
+            titleConfig[resolveApp()]?.logo?.dark ||
+            titleConfig.default.logo.dark,
         },
-        items: [
-          {
-            type: "docSidebar",
-            position: "left",
-            label: "Docs",
-            sidebarId: getSidebarId(),
-          },
-          {
-            type: "docSidebar",
-            docsPluginId: "api",
-            position: "left",
-            label: "API",
-            sidebarId: "apiSidebar",
-          },
-          {
-            type: "docSidebar",
-            docsPluginId: "guides",
-            position: "left",
-            label: "Guides",
-            sidebarId: "guidesSidebar",
-          },
-          {
-            href: "https://github.com",
-            label: "GitHub",
-            position: "right",
-          },
-          {
-            type: "search",
-            position: "right",
-          },
-        ],
-      },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Introduction",
-                to: "/",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/memotron",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/memotronapp",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Memotron. Built with Docusaurus.`,
+        items: resolveNavBarItems(),
       },
       prism: {
         theme: lightCodeTheme,
