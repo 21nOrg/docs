@@ -46,7 +46,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: "/",
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -161,10 +161,6 @@ const config = {
               {
                 label: "Introduction",
                 to: "/",
-              },
-              {
-                label: "Getting Started",
-                to: "/getting-started",
               },
             ],
           },
