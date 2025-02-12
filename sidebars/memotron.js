@@ -11,7 +11,16 @@ const sidebars = {
     {
       type: "category",
       label: "Getting Started",
-      items: ["memotron/quickstart", "memotron/installation"],
+      items: ["memotron/quickstart",
+        {
+          type: "category",
+          label: "Installation",
+          items: [
+            "memotron/installation","memotron/preview-apps"
+          ],
+        },
+
+      ],
     },
     {
       type: "category",

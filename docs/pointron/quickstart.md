@@ -4,4 +4,4 @@ sidebar_label: Quick start
 ---
 # Quick start Pointron
 
-Yet to be updated
+Watch these videos to quickly understand what Memotron can do for you and get started easily.

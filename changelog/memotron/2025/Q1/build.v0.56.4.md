@@ -1,0 +1,41 @@
+# Memotron web clipper - Chromium - build0.56.4
+
+- Drag to change position of toolbar in the web page
+
+- Collapsed state UI feedback improvements
+
+- Saving feedback improvements
+
+- Icon improvements throughout the extension
+
+- Properties setting UI improvements
+
+- Screenshot UI feedback improvements
+
+- ```Ctrl + I``` shortcut for screenshot
+
+- Youtube clipping improvements
+
+    - Clipping is now not allowed when an ad is being played to mix up the actual video clips.
+
+    - Clipping is not now not allowed when already an existing clip is present at that exact timestamp to avoid duplicate clips
+
+    - Switching to theatre mode, full screen mode and back now reliably refreshes the placement of clip markers on the timeline
+
+- Improved how longer tweets look immediately after clipping in feedback panel.
+
+- Added the ability to collapse the **login not found** notification for non logged in users. This gives time for users who are still yet to login after extension installation.
+
+- Improved user feedback for cases when side panel is not available for a particular web page
+
+- Improved clip actions and clip thumbnail UI in the side panel
+
+- Improved bottom actions in the side panel
+
+### Bug fixes
+
+- Fixed a bug where the user is still logged in on the extension when the session is expired
+
+- Fixed a bug where new signup from clipper is not showing region selection page on the application
+
+- Any changes made to text highlight clips in the web page will now immediately reflect in the side panel
