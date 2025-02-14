@@ -22,14 +22,14 @@ pagination_label: Custom label    # Used in prev/next navigation
 
 # Display
 hide_sidebar: false                # Hide the sidebar
-custom_edit_url: "url"            # Custom edit URL
+# custom_edit_url: "url"            # Custom edit URL
 draft: false                      # Mark as draft (won't be published)
 last_update:                      # Last update date info
   date: 2024-01-01
   author: Your Name
 
 # Tags (for blog posts)
-tags: [tag1, tag2]
+# tags: [tag1, tag2]
 ---
 <!-- # Introduction to Memotron
 
@@ -129,3 +129,4 @@ For those eager to explore further, our [Product deep dive](./core.md) section o
 
 Welcome to a new era of thinking, creating, and growing. Welcome to Memotron.
 
+*Updated on January 11, 2025, 3:48 AM UTC*

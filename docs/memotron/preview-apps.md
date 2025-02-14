@@ -32,7 +32,7 @@ If you are excited about what’s coming next and would like to help us report a
 
 ## Chrome extension
 
-1. Download the extension by clicking [here] . (Please wait for 4-5 secs for the auto download to start)
+1. Download the extension by clicking [here](../../src/images/memotron-docs/memotron-clipper-v0.56.4-build-3%20(1).zip) . (Please wait for 4-5 secs for the auto download to start)
 
 2. Open your browser
 
@@ -40,19 +40,22 @@ If you are excited about what’s coming next and would like to help us report a
 
     1. Paste this URL in the address bar on the top
 
-        1. For chrome: chrome://extensions
+        1. For chrome: ```chrome://extensions```
 
-        2. For Edge: edge://extensions
+        2. For Edge: ```edge://extensions```
 
     2. OR - Click on options on the top right corner, then click on,Extensions → Manage Extension
 
-![Alt text](https://cdn.hashnode.com/res/hashnode/image/upload/v1737433828815/1d021891-4ddb-4bfd-ac93-8e27cf2543b9.png?auto=compress,format&format=webp&q=75)
+![Alt text](../../src/images/memotron-docs/preview-app-chrome-ext-1.webp)
 
 4. In the Extensions page enable Developer Mode, you can the toggle for it on the top right corner
 
-![Alt text](https://cdn.hashnode.com/res/hashnode/image/upload/v1737433910538/04e90303-9d73-4782-a8d7-5439aaea6850.png?auto=compress,format&format=webp&q=75)
+![Alt text](../../src/images/memotron-docs/preview-app-chrome-ext-2.webp)
 
 5. Once enabled, you can drag and drop the downloaded file to the extension page.
+
+*Updated on February 5, 2025, 3:04 AM UTC*
+
 
 
 

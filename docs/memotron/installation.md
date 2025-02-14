@@ -32,7 +32,7 @@ Memotron stable version is currently available as a web app, iOS app and Windows
   weight="fill"
 /><br/><br/>
 
-Linux apps will be available soon… Check our roadmap [here](./intro.md). If you are interested to beta test our apps, please join our [Discord](https://discord.com/invite/9HJqKYTZKg) for regular updates.
+Linux apps will be available soon… Check our roadmap [here](./roadmap.md). If you are interested to beta test our apps, please join our [Discord](https://discord.com/invite/9HJqKYTZKg) for regular updates.
 
 ---
 
@@ -45,7 +45,7 @@ Optionally, you can install the web app as a PWA (Progressive Web App) to quickl
 --- 
 
 ## Web clipper (chrome extension)
-You can download the web clipper from chrome extension store using the button below. Firefox extension will be available [soon](./intro.md).
+You can download the web clipper from chrome extension store using the button below. Firefox extension will be available [soon](./roadmap.md).
 
 <CustomButton
   color="#3498db" 
@@ -66,5 +66,6 @@ Arc browser doesn’t support sidePanel API. Therefore, our side panel interface
 
 :::
 
+*Updated on February 5, 2025, 3:03 AM UTC*
 
 

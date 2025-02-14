@@ -62,7 +62,7 @@ When we sat down to describe all the traditional methods of curation, We remembe
 
 > _"Node - Collection - Combination - Linking system."_
 
-If you have read the article mentioned above, you might naturally wonder if NCCL is another note taking method like Zettlekasten. NCCL is a system using which any note taking method can be implemented. So, Zettlekasten or any other note-taking method can be implemented on top of NCCL system. See [Note-taking methods](./intro.md) section for more detailed explanation.
+If you have read the article mentioned above, you might naturally wonder if NCCL is another note taking method like Zettlekasten. NCCL is a system using which any note taking method can be implemented. So, Zettlekasten or any other note-taking method can be implemented on top of NCCL system. See [Note-taking methods](./method.md) section for more detailed explanation.
 
 ### Hierarchy
 
@@ -74,7 +74,7 @@ NCCL system is composed of the following as its hierarchy of curation.
 
 3. Combination
 
-![alt image](https://cdn.hashnode.com/res/hashnode/image/upload/v1729580567638/8342fb43-645d-4289-a386-90c525ac82e3.png?auto=compress,format&format=webp&q=75)
+![alt image](../../src/images/memotron-docs/core-concepts-hierarchy.png)
 
 ### Node
 
@@ -126,3 +126,4 @@ Nodularity is pushing link to curate to next level. It is the ability to link a 
 
 Link tags is a way to maintain relationships for links. Imagine I have 100 data points for an article that I am writing. Now with link tags, I can easily mark few of those data points as ```weight:8``` or ```status:completed``` or ```relation:against``` etc.
 
+*Updated on January 11, 2025, 3:48 AM UTC*

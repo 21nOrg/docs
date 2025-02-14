@@ -1,3 +1,10 @@
+---
+last_update:
+  date: 2025-02-03
+  author: Your Name
+  
+tags: [Bug Fixes, Improvements, New]
+---
 # Memotron web clipper - Chromium - build0.56.4
 
 - Drag to change position of toolbar in the web page
