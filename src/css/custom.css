@@ -194,3 +194,12 @@ article {
 [data-theme='dark'] .menu__link svg {
   opacity: 0.6;
 }
+
+.button_link {
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+.button_link:hover {
+  opacity: 0.9;
+  filter: brightness(1.2);
+}
