@@ -203,3 +203,60 @@ article {
   opacity: 0.9;
   filter: brightness(1.2);
 }
+
+summary {
+  display: list-item !important;
+}
+
+summary::after {
+  content: attr(data-summary-text) !important;
+  font-weight: bold;
+}
+
+.sidebar-title {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px
+}
+
+/* Default grey line for all categories */
+.custom-sidebar-category .menu__list {
+  border-left: 2px solid grey;
+  padding-left: 8px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Default grey for all links */
+.menu__list-item a {
+  color: grey;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  padding-left: 8px;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+/* Active sidebar item */
+.menu__list-item a.menu__link--active {
+  color: #2a6fde;
+  background-color: #eaf2ff; 
+  font-weight: bold;
+}
+
+/* Change ONLY the left border for the active child */
+.menu__list-item a.menu__link--active::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #2a6fde; /* Blue border */
+}
+
+/* Ensure parents' left border stays grey */
+.custom-sidebar-category .menu__list > .menu__list-item > a::before {
+  background-color:  #2a6fde !important;
+}
