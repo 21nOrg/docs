@@ -8,7 +8,7 @@ Watch these videos to quickly understand what Memotron can do for you and get st
 
 Quick 5 minute overview of entire app functionality:
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=SeWdndc7y4A&t=1s" 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SeWdndc7y4A" 
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -17,7 +17,7 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Memotron Alpha version full tutorial:
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=SeWdndc7y4A&t=1s" 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SdDRE53zLiM" 
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

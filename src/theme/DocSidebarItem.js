@@ -28,3 +28,22 @@ export default function DocSidebarItemWrapper(props) {
     />
   );
 }
+
+// import React from "react";
+// import DocSidebarItem from "@theme-original/DocSidebarItem";
+// import * as PhosphorIcons from "@phosphor-icons/react";
+
+// // export default function DocSidebarItemWrapper(props) {
+// //   const { item } = props;
+// //   const Icon = item.customProps?.icon
+// //     ? PhosphorIcons[item.customProps.icon]
+// //     : null;
+
+// //   return (
+// //     <div className="sidebar-item-with-icon" style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+// //       {Icon && <Icon size={20} weight="regular" style={{ opacity: 0.8 }} />}
+// //       <DocSidebarItem {...props} />
+// //     </div>
+// //   );
+// // }
+

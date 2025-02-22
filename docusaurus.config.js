@@ -111,7 +111,7 @@ const titleConfig = {
     favicon: "img/memotron.ico",
     logo: {
       light: "img/memotron-light.png",
-      dark: "img/memotron-dark.png",
+      dark: "img/memotron-dark.webp",
     },
   },
   pointron: {
@@ -215,6 +215,7 @@ const config = {
   // Custom fields to store runtime data
   customFields: {
     hostname: typeof window !== "undefined" ? window.location.hostname : "",
+    app: resolveApp(),
   },
 
   themeConfig:

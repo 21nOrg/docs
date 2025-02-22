@@ -18,6 +18,14 @@
 
 .buttons {
   display: flex;
+  gap: 1rem;
   align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
