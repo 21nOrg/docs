@@ -169,11 +169,19 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        
       }),
     ],
   ],
 
   plugins: [
+
+    [require.resolve('docusaurus-lunr-search'), {
+      languages: ['en', 'de'], // Add more if needed
+      highlightResult: true, // Highlight searched words
+      maxHits: 10, // Increase number of search results
+    }
+    ],
     [
       "@docusaurus/plugin-content-docs",
       {
@@ -217,9 +225,19 @@ const config = {
     hostname: typeof window !== "undefined" ? window.location.hostname : "",
   },
 
+  // themes: [
+  //   [
+  //     "@docusaurus/theme-search-algolia",
+  //     {
+  //       type: "local", // Enables built-in local search
+  //     },
+  //   ],
+  // ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
       colorMode: {
         defaultMode: "dark",
         respectPrefersColorScheme: true,

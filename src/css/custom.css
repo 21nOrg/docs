@@ -33,7 +33,7 @@
 
 /* Modern styling improvements */
 .navbar {
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: none;
   border-bottom: 1px solid var(--ifm-toc-border-color);
@@ -49,6 +49,12 @@
 
 .navbar__items {
   gap: 0.5rem;
+}
+
+.navbar__items .search-bar {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .navbar__brand {
@@ -259,4 +265,25 @@ summary::after {
 /* Ensure parents' left border stays grey */
 .custom-sidebar-category .menu__list > .menu__list-item > a::before {
   background-color:  #2a6fde !important;
+}
+
+.searchBar {
+  border-radius: 50px;
+  border: 2px solid #E5E4E2; /* Custom border color */
+  padding: 5px;
+  background-color: #fff; /* Background color */
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+}
+
+.searchBar input::placeholder {
+  color: grey !important;
+  opacity: 1;
+}
+
+.searchBar:focus-within {
+  border-color: grey; /* Change border color when active */
 }
