@@ -17,6 +17,7 @@
   --ifm-font-family-base: 'Hanken Grotesk', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
   --ifm-heading-font-family: 'Hanken Grotesk', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
   --doc-sidebar-width: 300px !important;
+  --sidebar-item-active-background-color: #eaf2ff;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -29,15 +30,35 @@
   --ifm-color-primary-lighter: #93a9f0;
   --ifm-color-primary-lightest: #a9baf2;
   --ifm-background-color: #1a1b1e;
+  --sidebar-item-active-background-color: #171f3f;
 }
 
-/* Modern styling improvements */
+
+/* ********** Body, Layout ********** */
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#__docusaurus {
+  display: flex;
+  overflow: auto;
+  width: 100%;
+  max-width: 1600px;
+  border-left: 1px solid var(--ifm-toc-border-color);
+  border-right: 1px solid var(--ifm-toc-border-color);
+}
+
+
+/* ********** Navbar ********** */
 .navbar {
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: none;
   border-bottom: 1px solid var(--ifm-toc-border-color);
   height: 4rem;
+  min-height: 4rem;
   padding: 0.5rem 1.5rem;
 }
 
@@ -49,6 +70,12 @@
 
 .navbar__items {
   gap: 0.5rem;
+}
+
+.navbar__items .search-bar {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .navbar__brand {
@@ -99,6 +126,7 @@ html:not([data-theme='dark']) .clean-btn:hover {
   letter-spacing: -0.02em;
 }
 
+/* ********** Markdown ********** */
 .markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -109,34 +137,25 @@ html:not([data-theme='dark']) .clean-btn:hover {
   backdrop-filter: blur(10px);
 }
 
-.menu__link {
-  font-weight: 500;
-  padding: 0.65rem 1rem 0.65rem 0.5rem;
-  line-height: 1.4;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  border-radius: 0.5rem;
+/* To avoid subtle scroll of sidebar on scroll of article - TEMP */
+.col:has(article) {
+  height: 90vh;
+  overflow-y: auto;
 }
 
-.menu__list-item-with-icon .menu__link {
-  padding-left: 0.75rem;
-}
-
-.menu__link i {
-  font-size: 1.1rem;
-  opacity: 0.8;
-  min-width: 1.1rem;
-  margin-left: 0.2rem;
-}
-
-.menu__link--active {
-  font-weight: 600;
-}
 
 article {
   max-width: 750px;
   margin: 0 auto;
+}
+
+.pagination-nav {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+.pagination-nav__label::after, .pagination-nav__label::before {
+  content: "" !important;
 }
 
 .theme-code-block {
@@ -166,6 +185,58 @@ article {
   border-top: 1px solid var(--ifm-toc-border-color);
 }
 
+
+.button_link {
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+.button_link:hover {
+  opacity: 0.9;
+  filter: brightness(1.2);
+}
+
+summary {
+  display: list-item !important;
+}
+
+summary::after {
+  content: attr(data-summary-text) !important;
+  font-weight: bold;
+}
+
+
+/* ********** Sidebar ********** */
+
+/* Hide scrollbar for IOS webview and other scenarios */
+::-webkit-scrollbar {
+  width: 0em;
+}
+
+.menu {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.menu::-webkit-scrollbar {
+  width: 0em;
+  display: none !important; /* Safari and Chrome */
+}
+
+
+.menu {
+  padding: 16px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar-section {
+  font-weight: bolder;
+  margin-top: 40px;
+  margin-bottom: 3px;
+  margin-left: 10px
+}
+
+/* Sidebar menu item collapse button styling */
 .menu__caret:before,
 .menu__link--sublist:after {
   background: var(--ifm-menu-link-sublist-icon) 50% / 1.25rem 1.25rem;
@@ -195,11 +266,100 @@ article {
   opacity: 0.6;
 }
 
-.button_link {
-  transition: opacity 0.3s ease, filter 0.3s ease;
+
+
+/* .menu__link {
+  font-weight: 500;
+  padding: 0.65rem 1rem 0.65rem 0.5rem;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 0.5rem;
+} */
+
+.menu__list-item-with-icon .menu__link {
+  padding-left: 0.75rem;
 }
 
-.button_link:hover {
-  opacity: 0.9;
-  filter: brightness(1.2);
+/* .menu__link i {
+  font-size: 1.1rem;
+  opacity: 0.8;
+  min-width: 1.1rem;
+  margin-left: 0.2rem;
+}
+*/
+
+
+.menu__list-item-collapsible + ul.menu__list {
+  border-left: 1px solid var(--ifm-toc-border-color);
+  padding-left: 16px;
+  margin-left: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+
+.menu__link {
+  font-weight: 400;
+  background-color: transparent;
+  /* transition: all 0.3s ease-in-out; */
+  position: relative;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.menu__list-item-collapsible, .menu__list-item-collapsible--active {
+  border-radius: 8px;
+}
+
+.menu__list-item-collapsible--active, li.menu__list-item > a.menu__link--active {
+  background-color: var(--sidebar-item-active-background-color);
+}
+
+.menu__list-item-collapsible--active:hover, li.menu__list-item > a.menu__link--active:hover  {
+  background-color: var(--sidebar-item-active-background-color) !important;
+}
+
+
+li.menu__list-item > a.menu__link--active,
+ .menu__list-item-collapsible--active a.menu__link--active {
+  font-weight: bold;
+}
+
+
+div.menu__list-item-collapsible--active > a.menu__link--active::before, li.menu__list-item > a.menu__link--active::before {
+  content: "";
+  position: absolute;
+  left: -17px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: var(--ifm-color-primary);
+}
+
+
+.breadcrumbs__link {
+border-radius: 8px;
+padding: 0.1rem 0.5rem;
+}
+
+.searchBar {
+  border-radius: 50px;
+  border: 1px solid var(--ifm-toc-border-color);
+  padding: 5px;
+  /* background-color: #fff;  */
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+}
+
+.searchBar input::placeholder {
+  color: grey !important;
+  opacity: 1;
+}
+
+.searchBar:focus-within {
+  border-color: grey;
 }

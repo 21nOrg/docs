@@ -63,19 +63,19 @@ function resolveNavBarItems() {
     });
   }
 
-  if (pages.includes("faqs")) {
-    items.push({
-      position: "left",
-      label: "FAQs",
-      to: `${app}/faqs`,
-    });
-  }
-
   if (pages.includes("roadmap")) {
     items.push({
       position: "left",
       label: "Roadmap",
       to: `${app}/roadmap`,
+    });
+  }
+
+  if (pages.includes("faqs")) {
+    items.push({
+      position: "left",
+      label: "FAQs",
+      to: `${app}/faqs`,
     });
   }
 
@@ -95,7 +95,7 @@ function resolveNavBarItems() {
       href: resolveAppUrl(),
       label: "Go to app",
       position: "right",
-      className: "button button--secondary",
+      // className: "button button--secondary",
     },
     {
       type: "search",
@@ -111,7 +111,7 @@ const titleConfig = {
     favicon: "img/memotron.ico",
     logo: {
       light: "img/memotron-light.png",
-      dark: "img/memotron-dark.png",
+      dark: "img/memotron-dark.webp",
     },
   },
   pointron: {
@@ -175,6 +175,14 @@ const config = {
 
   plugins: [
     [
+      require.resolve("docusaurus-lunr-search"),
+      {
+        languages: ["en", "de"], // Add more if needed
+        highlightResult: true, // Highlight searched words
+        maxHits: 10, // Increase number of search results
+      },
+    ],
+    [
       "@docusaurus/plugin-content-docs",
       {
         id: "api",
@@ -215,7 +223,17 @@ const config = {
   // Custom fields to store runtime data
   customFields: {
     hostname: typeof window !== "undefined" ? window.location.hostname : "",
+    app: resolveApp(),
   },
+
+  // themes: [
+  //   [
+  //     "@docusaurus/theme-search-algolia",
+  //     {
+  //       type: "local", // Enables built-in local search
+  //     },
+  //   ],
+  // ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
