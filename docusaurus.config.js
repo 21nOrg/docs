@@ -63,19 +63,19 @@ function resolveNavBarItems() {
     });
   }
 
-  if (pages.includes("faqs")) {
-    items.push({
-      position: "left",
-      label: "FAQs",
-      to: `${app}/faqs`,
-    });
-  }
-
   if (pages.includes("roadmap")) {
     items.push({
       position: "left",
       label: "Roadmap",
       to: `${app}/roadmap`,
+    });
+  }
+
+  if (pages.includes("faqs")) {
+    items.push({
+      position: "left",
+      label: "FAQs",
+      to: `${app}/faqs`,
     });
   }
 
@@ -95,7 +95,7 @@ function resolveNavBarItems() {
       href: resolveAppUrl(),
       label: "Go to app",
       position: "right",
-      className: "button button--secondary",
+      // className: "button button--secondary",
     },
     {
       type: "search",
@@ -169,18 +169,18 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        
       }),
     ],
   ],
 
   plugins: [
-
-    [require.resolve('docusaurus-lunr-search'), {
-      languages: ['en', 'de'], // Add more if needed
-      highlightResult: true, // Highlight searched words
-      maxHits: 10, // Increase number of search results
-    }
+    [
+      require.resolve("docusaurus-lunr-search"),
+      {
+        languages: ["en", "de"], // Add more if needed
+        highlightResult: true, // Highlight searched words
+        maxHits: 10, // Increase number of search results
+      },
     ],
     [
       "@docusaurus/plugin-content-docs",
@@ -238,7 +238,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-
       colorMode: {
         defaultMode: "dark",
         respectPrefersColorScheme: true,

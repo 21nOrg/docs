@@ -2,31 +2,33 @@ module.exports = {
   memotronChangelogSidebar: [
     {
       type: "doc",
-      label: "What's new",
-      id: "new",
+      label: "💥 What's new (v0.58.0)",
+      id: "v0.58.0",
     },
-    {
-      type: "category",
-      label: "2025",
-      collapsed: false,
-      items: [
-        {
-          type: "category",
-          label: "Q1",
-          items: [
-            {
-              type: "doc",
-              label: "build v0.56.4",
-              id: "2025/Q1/build.v0.56.4",
-            },
-            "2025/Q1/v0.58.0",
-            "2025/Q1/v0.57.3",
-            "2025/Q1/v0.57.2",
-            "2025/Q1/v0.57.1",
-          ],
-        },
-      ],
-    },
+    "2025/Q1/v0.56.4-web-clipper",
+    "2025/Q1/v0.57.3",
+    "2025/Q1/v0.57.2",
+    "2025/Q1/v0.57.1",
+    // {
+    //   type: "html",
+    //   value: "2025",
+    //   className: "sidebar-section",
+    // },
+    // {
+    //   type: "category",
+    //   label: "2025 Q1",
+    //   items: [
+    //     {
+    //       type: "doc",
+    //       label: "Web clipper v0.56.4",
+    //       id: "2025/Q1/v0.56.4-web-clipper",
+    //     },
+    //     "2025/Q1/v0.58.0",
+    //     "2025/Q1/v0.57.3",
+    //     "2025/Q1/v0.57.2",
+    //     "2025/Q1/v0.57.1",
+    //   ],
+    // },
     {
       type: "category",
       label: "2024",
@@ -47,7 +49,7 @@ module.exports = {
             "2024/Q4/v0.56.5",
             {
               type: "doc",
-              label: "v0.56.3 Web clipper",
+              label: "Web clipper v0.56.3",
               id: "2024/Q4/v0.56.3-web-clipper",
             },
             "2024/Q4/v0.56.4",
