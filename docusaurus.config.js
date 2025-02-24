@@ -223,6 +223,7 @@ const config = {
   // Custom fields to store runtime data
   customFields: {
     hostname: typeof window !== "undefined" ? window.location.hostname : "",
+    app: resolveApp(),
   },
 
   // themes: [

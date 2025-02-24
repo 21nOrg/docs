@@ -10,9 +10,9 @@ const sidebars = {
       // customProps: { icon: "GameController" },
     },
     {
-      type: "html", 
-      value: "<strong>Getting Started</strong>",
-      className: "sidebar-title",
+      type: "html",
+      value: "Getting Started",
+      className: "sidebar-section",
     },
     {
       type: "doc",
@@ -22,17 +22,16 @@ const sidebars = {
     {
       type: "category",
       label: "Installation",
-      className: "custom-sidebar-category",
       link: {
-              type: "doc",
-              id: "memotron/installation"
-            },
+        type: "doc",
+        id: "memotron/installation",
+      },
       items: ["memotron/preview-apps"],
     },
     {
-      type: "html", 
-      value: "<strong>Product deep dive</strong>",
-      className: "sidebar-title",
+      type: "html",
+      value: "Product deep dive",
+      className: "sidebar-section",
     },
     {
       type: "doc",
@@ -42,39 +41,34 @@ const sidebars = {
     {
       type: "category",
       label: "Features",
-      className: "custom-sidebar-category",
       link: {
-          type: "doc",
-          id: "memotron/features"
-        },
+        type: "doc",
+        id: "memotron/features",
+      },
       items: [
         {
           type: "category",
           label: "Nodes",
-          className: "custom-sidebar-category",
           link: {
-              type: "doc",
-              id: "memotron/features/nodes"
-            },
-          items: [
-            "memotron/features/nodes/markdown"
-          ]  
+            type: "doc",
+            id: "memotron/features/nodes",
+          },
+          items: ["memotron/features/nodes/markdown"],
         },
         {
           type: "category",
           label: "Collections",
-          className: "custom-sidebar-category",
           link: {
-              type: "doc",
-              id: "memotron/features/collections"
-            },
+            type: "doc",
+            id: "memotron/features/collections",
+          },
           items: [
             "memotron/features/collections/simple",
             "memotron/features/collections/typed",
             "memotron/features/collections/query",
             "memotron/features/collections/views",
-            "memotron/features/collections/play-modes"
-          ]  
+            "memotron/features/collections/play-modes",
+          ],
         },
         "memotron/features/combinations",
         "memotron/features/link-tags",
@@ -86,78 +80,71 @@ const sidebars = {
         {
           type: "category",
           label: "Customization",
-          className: "custom-sidebar-category",
           link: {
-              type: "doc",
-              id: "memotron/features/customization"
-            },
+            type: "doc",
+            id: "memotron/features/customization",
+          },
           items: [
             "memotron/features/customization/mode-of-interaction",
             "memotron/features/customization/appearance",
             "memotron/features/customization/date-and-time",
-          ]  
+          ],
         },
         "memotron/features/opening-behaviour",
-      ]
+      ],
     },
     {
       type: "category",
       label: "Web Clipper",
-      className: "custom-sidebar-category",
       link: {
-          type: "doc",
-          id: "memotron/web-clipper"
-        },
+        type: "doc",
+        id: "memotron/web-clipper",
+      },
       items: [
         "memotron/web-clipper/text-clipping",
         "memotron/web-clipper/tweet-clipping",
-        "memotron/web-clipper/kindle-sync"
-      ]
+        "memotron/web-clipper/kindle-sync",
+      ],
     },
     {
       type: "category",
       label: "A̶n̶t̶i̶ productivity",
-      className: "custom-sidebar-category",
       link: {
-          type: "doc",
-          id: "memotron/anti-productivity"
-        },
+        type: "doc",
+        id: "memotron/anti-productivity",
+      },
       items: [
         "memotron/anti-productivity/digital-hoarding",
         "memotron/anti-productivity/perfecting-the-setup",
-        "memotron/anti-productivity/round-trip-capture"
-      ]
+        "memotron/anti-productivity/round-trip-capture",
+      ],
     },
     {
-      type: "html", 
-      value: "<strong>More</strong>",
-      className: "sidebar-title",
+      type: "html",
+      value: "More",
+      className: "sidebar-section",
     },
     {
       type: "category",
       label: "Roadmap",
-      className: "custom-sidebar-category",
       link: {
-          type: "doc",
-          id: "memotron/roadmap"
-        },
-      items: [
-        "memotron/roadmap/everything-planned"
-      ]
+        type: "doc",
+        id: "memotron/roadmap",
+      },
+      items: ["memotron/roadmap/everything-planned"],
     },
     {
       type: "category",
       label: "Switch from other tools",
-      className: "custom-sidebar-category",
       link: {
-          type: "doc",
-          id: "memotron/switch-from-other-tools"
-        },
+        type: "doc",
+        id: "memotron/switch-from-other-tools",
+      },
       items: [
         "memotron/switch-from-other-tools/notion",
         "memotron/switch-from-other-tools/obsidian",
         "memotron/switch-from-other-tools/capacities",
-      ]
+      ],
     },
     {
       type: "doc",
@@ -180,9 +167,9 @@ const sidebars = {
       id: "memotron/credits-and-appreciation",
     },
     {
-      type: "html", 
-      value: "<strong>Useful links</strong>",
-      className: "sidebar-title",
+      type: "html",
+      value: "Useful links",
+      className: "sidebar-section",
     },
     {
       type: "link",
@@ -194,7 +181,6 @@ const sidebars = {
       label: "Join our discord",
       href: "https://discord.com/invite/9HJqKYTZKg",
     },
-
   ],
 };
 

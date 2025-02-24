@@ -8,7 +8,7 @@ title: Frequently asked questions
 
 <details>
   <summary data-summary-text="Who owns Memotron?"></summary>
-  Memotron is built and 100% owned by 21n (21st century native company) registered as Blank labs private limited in Hyderabad, India. 21n is a technology development company with triple bottom line at its core. Read our white paper [here](https://papers.21n.io/soft) to understand more.
+  Memotron is built and 100% owned by 21n (21st century native company) registered as Blank labs private limited in Hyderabad, India. 21n is a technology development company with triple bottom line at its core. Read our white paper [here](https://papers.21n.org/soft) to understand more.
 </details>
 
 <details>
