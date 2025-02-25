@@ -9,15 +9,18 @@ const sidebars = {
       id: "pointron/intro",
     },
     {
-      type: "category",
-      label: "Getting Started",
-      collapsed: false,
-      items: ["pointron/quickstart", "pointron/installation"],
+      type: "html",
+      value: "Getting Started",
+      className: "sidebar-section",
     },
     {
       type: "category",
-      label: "Product deep dive",
-      items: ["pointron/features/tasks", "features/collections"],
+      label: "Installation",
+      link: {
+        type: "doc",
+        id: "pointron/installation",
+      },
+      items: ["pointron/preview-apps"],
     },
   ],
 };

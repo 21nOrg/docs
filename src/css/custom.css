@@ -53,7 +53,7 @@ body {
 
 /* ********** Navbar ********** */
 .navbar {
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: none;
   border-bottom: 1px solid var(--ifm-toc-border-color);
@@ -70,6 +70,12 @@ body {
 
 .navbar__items {
   gap: 0.5rem;
+}
+
+.navbar__items .search-bar {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .navbar__brand {
@@ -146,6 +152,10 @@ article {
 .pagination-nav {
   max-width: 750px;
   margin: 0 auto;
+  margin-bottom: 10rem;
+}
+.pagination-nav__label::after, .pagination-nav__label::before {
+  content: "" !important;
 }
 
 .theme-code-block {
@@ -331,4 +341,25 @@ div.menu__list-item-collapsible--active > a.menu__link--active::before, li.menu_
 .breadcrumbs__link {
 border-radius: 8px;
 padding: 0.1rem 0.5rem;
+}
+
+.searchBar {
+  border-radius: 50px;
+  border: 1px solid var(--ifm-toc-border-color);
+  padding: 5px;
+  /* background-color: #fff;  */
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+}
+
+.searchBar input::placeholder {
+  color: grey !important;
+  opacity: 1;
+}
+
+.searchBar:focus-within {
+  border-color: grey;
 }

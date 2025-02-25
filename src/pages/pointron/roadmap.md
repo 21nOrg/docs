@@ -3,14 +3,20 @@ title: Pointron roadmap
 ---
 # Pointron roadmap
 
-## Up next
-> What’s up next for Pointron
-
-​
-### v0.82.0
-> Scheduled release: Feb-March 2025
+## Up next: v0.82.0
+> Scheduled release: March 2025
 
 * App loading time and performance improvements
+* Full offlinability and offline user mode
+* Goals becomes Tasks
+* Tasks
+  * New redesigned task page
+  * Sub tasks nesting, reordering and more
+  * Sub tasks as steps
+  * Todos
+  * Task analytics
+  * Task history
+* Todos
 * New library page to browse Tasks, Todos, Habits, Collections and more
 * Collections to organize tasks and add properties
 * Bug fixes and small improvements
@@ -32,9 +38,6 @@ title: Pointron roadmap
 
 ### Tasks
 - Progress tracking
-- Todos
-- Analytics on tasks page
-- Session history
 - Billing and budgeting
 - AI Insights
 
