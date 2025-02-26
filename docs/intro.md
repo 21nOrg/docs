@@ -45,7 +45,7 @@ To put it into a single sentence, Memotron is an unbelievably powerful, insanely
 
 ### Why Memotron?
 
-Memotron isn't just another digital organizer or a PKM tool. We consciously crafted it keeping all our digital lives and workflows in mind. Read our [NCCL system](./core.md) to dive deeper into our design decisions and architecture.
+Memotron isn't just another digital organizer or a PKM tool. We consciously crafted it keeping all our digital lives and workflows in mind. Read our [NCCL system](/memotron/core) to dive deeper into our design decisions and architecture.
 
 To summarize, here's what sets Memotron apart:
 
@@ -97,9 +97,9 @@ Memotron isn't just about managing information - it's a tool for reflection, per
 
 ### Getting Started
 
-Ready to enhance your cognitive capabilities and improve your quality of life? Dive into our [Quick start guide](./quickstart.md) section to begin your Memotron journey.
+Ready to enhance your cognitive capabilities and improve your quality of life? Dive into our [Quick start guide](/memotron/quickstart) section to begin your Memotron journey.
 
-For those eager to explore further, our [Product deep dive](./core.md) section offer detailed insights into Memotron's potential across various scenarios.
+For those eager to explore further, our [Product deep dive](/memotron/core) section offer detailed insights into Memotron's potential across various scenarios.
 
 Welcome to a new era of thinking, creating, and growing. Welcome to Memotron.
 <!--MEMOTRON_END-->
