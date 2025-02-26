@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Collections
 
-Collections are a mechanism to collect items together. Some note-taking methods like Zettelkasten might heavily rely on [Linking](../features/linking.md) to organize knowledge, other methods requires some structure to organizing information.
+Collections are a mechanism to collect items together. Some note-taking methods like Zettelkasten might heavily rely on linking to organize knowledge, other methods requires some structure to organizing information.
 
 ## TLDR
 
@@ -16,4 +16,4 @@ Collections are a mechanism to collect items together. Some note-taking methods 
 
 Read along next sections to understand each collection type in a better and visual way.
 
-*Updated on January 11, 2025, 3:48 AM UTC* 
+*Updated on January 11, 2025* 

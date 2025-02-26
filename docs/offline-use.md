@@ -14,4 +14,4 @@ We still have minor dependencies on the internet for loading icons etc which we 
 ### Offline mode
 If you have decided to create a cloud sync account with us based on your use case, you can still turn on offline mode if you want to go camp in the woods or choose to not buy wifi on your next airplane trip.
 
-*Updated on January 11, 2025, 3:48 AM UTC*
+*Updated on February 26, 2025*

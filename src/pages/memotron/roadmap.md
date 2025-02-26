@@ -8,7 +8,7 @@ title: Memotron roadmap
 
 * End to end encryption for cloud sync plan
 * Cloud sync paid plan
-* Todos
+* Tasks
 * Timeline layout in Node bird view
 * Bug fixes and small improvements
 
