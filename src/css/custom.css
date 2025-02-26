@@ -154,8 +154,11 @@ article {
   margin: 0 auto;
   margin-bottom: 10rem;
 }
-.pagination-nav__label::after, .pagination-nav__label::before {
-  content: "" !important;
+.pagination-nav__link--next .pagination-nav__label::after {
+  content: " → " !important;
+}
+.pagination-nav__link--prev .pagination-nav__label::before {
+  content: "← " !important;
 }
 
 .theme-code-block {

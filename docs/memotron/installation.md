@@ -5,7 +5,6 @@ sidebar_label: Installation
 
 import CustomButton from '@site/src/components/CustomButton';
 
-# Installing Memotron
 
 Memotron stable version is currently available as a web app, iOS app and Windows app. Other apps are in early development and are available from respective stores via [Preview apps](./preview-apps.md).
 
