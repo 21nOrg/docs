@@ -156,6 +156,9 @@ const config = {
     locales: ["en"],
   },
 
+  // Add client modules for Vercel Analytics
+  clientModules: [require.resolve("./src/vercel-analytics.js")],
+
   presets: [
     [
       "classic",

@@ -21,6 +21,7 @@
     "@mdx-js/react": "^3.0.0",
     "@phosphor-icons/react": "^2.1.7",
     "@phosphor-icons/web": "^2.1.1",
+    "@vercel/analytics": "^1.5.0",
     "classnames": "^2.5.1",
     "clsx": "^2.0.0",
     "docusaurus-lunr-search": "^3.6.0",
