@@ -156,6 +156,9 @@ const config = {
     locales: ["en"],
   },
 
+  // Add client modules for Vercel Analytics
+  clientModules: [require.resolve("./src/vercel-analytics.js")],
+
   presets: [
     [
       "classic",
@@ -163,7 +166,7 @@ const config = {
       ({
         docs: {
           sidebarPath: getSidebarPath(),
-          routeBasePath: "/docs",
+          routeBasePath: "/",
         },
         blog: false,
         theme: {
@@ -218,6 +221,47 @@ const config = {
         sidebarPath: require.resolve("./sidebars/pointron-changelog.js"),
       },
     ],
+    function (context, options) {
+      return {
+        name: "process-conditional-content",
+        async loadContent() {
+          if (process.env.NODE_ENV !== "production") {
+            return;
+          }
+          const fs = require("fs");
+          const path = require("path");
+          const app = process.env.APP_NAME || "default";
+          const filePath = path.join(__dirname, "docs/intro.md");
+          let content = fs.readFileSync(filePath, "utf8");
+          content = content.replace(
+            /<!--MEMOTRON_START-->[\s\S]*?<!--MEMOTRON_END-->/g,
+            app === "memotron" ? "$&" : ""
+          );
+          content = content.replace(
+            /<!--POINTRON_START-->[\s\S]*?<!--POINTRON_END-->/g,
+            app === "pointron" ? "$&" : ""
+          );
+          content = content.replace(
+            /<!--DEFAULT_START-->[\s\S]*?<!--DEFAULT_END-->/g,
+            app === "default" ? "$&" : ""
+          );
+
+          content = content.replace(
+            /<!--[A-Z_]+_START-->|<!--[A-Z_]+_END-->/g,
+            ""
+          );
+
+          fs.writeFileSync(filePath, content);
+        },
+        async postBuild() {
+          if (process.env.NODE_ENV === "production") {
+            const path = require("path");
+            const filePath = path.join(__dirname, "docs/intro.md");
+            require("child_process").execSync("git checkout -- " + filePath);
+          }
+        },
+      };
+    },
   ],
 
   // Custom fields to store runtime data

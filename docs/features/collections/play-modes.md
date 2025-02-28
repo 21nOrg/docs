@@ -1,6 +1,7 @@
 ---
 title: Play modes
 sidebar_label: Play modes
+draft: true
 ---
 
 | Mode     | Description                                                      |

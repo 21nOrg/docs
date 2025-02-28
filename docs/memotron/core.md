@@ -62,7 +62,8 @@ When we sat down to describe all the traditional methods of curation, We remembe
 
 > _"Node - Collection - Combination - Linking system."_
 
-If you have read the article mentioned above, you might naturally wonder if NCCL is another note taking method like Zettlekasten. NCCL is a system using which any note taking method can be implemented. So, Zettlekasten or any other note-taking method can be implemented on top of NCCL system. See [Note-taking methods](./method.md) section for more detailed explanation.
+If you have read the article mentioned above, you might naturally wonder if NCCL is another note taking method like Zettlekasten. NCCL is a system using which any note taking method can be implemented. So, Zettlekasten or any other note-taking method can be implemented on top of NCCL system. 
+<!-- See [Note-taking methods](./method.md) section for more detailed explanation. -->
 
 ### Hierarchy
 

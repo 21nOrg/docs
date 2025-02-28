@@ -8,16 +8,15 @@ title: Pointron roadmap
 
 * App loading time and performance improvements
 * Full offlinability and offline user mode
-* Goals becomes Tasks
+* Goals
+  * New redesigned goal page
+  * Sub goals nesting, reordering and more
+  * Sub goals as steps, boards, tabs layout
+  * Tasks in goal
+  * Goal analytics
+  * Goal history
 * Tasks
-  * New redesigned task page
-  * Sub tasks nesting, reordering and more
-  * Sub tasks as steps
-  * Todos
-  * Task analytics
-  * Task history
-* Todos
-* New library page to browse Tasks, Todos, Habits, Collections and more
+* New library page to browse Goals, Tasks, Habits, Collections and more
 * Collections to organize tasks and add properties
 * Bug fixes and small improvements
 
@@ -36,11 +35,14 @@ title: Pointron roadmap
   - Custom alert sounds
   - Pre focus start sound
 
-### Tasks
+### Goals
 - Progress tracking
 - Billing and budgeting
 - AI Insights
 
+### Tasks
+- Repetition intervals
+- Reminders
 
 ### Analytics
 - Advanced filters in Analytics
@@ -77,7 +79,6 @@ title: Pointron roadmap
 ### More
 - Desktop app - Windows, linux
 - Android app
-- Reminders
 - Reports
 - watchOS app
 - iOS and watchOS widgets

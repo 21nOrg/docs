@@ -1,7 +1,7 @@
 ---
 title: Introduction
 sidebar_label: Introduction
-
+slug: /
 # Page Metadata
 sidebar_position: 2               # Order in sidebar (lower numbers appear first)
 sidebar_class_name: green        # Custom CSS class for sidebar item
@@ -13,7 +13,7 @@ toc_max_heading_level: 3         # Maximum heading level shown in TOC
 # SEO
 description: "Page description"   # Meta description for SEO
 keywords: [keywords, for, seo]    # Meta keywords for SEO
-image: img/myimage.png           # Social card image
+image: img/myimage.png           # Social card images
 
 # Navigation
 pagination_label: Custom label    # Used in prev/next navigation
@@ -31,34 +31,8 @@ last_update:                      # Last update date info
 # Tags (for blog posts)
 # tags: [tag1, tag2]
 ---
-<!-- # Introduction to Memotron
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
-
-It builds your site as simple **static HTML, JavaScript and CSS files**.
-
-## Build your site
-
-Build your site **for production**:
-
-```bash
-npm run build
-```
-
-The static files are generated in the `build` folder.
-
-## Deploy your site
-
-Test your production build locally:
-
-```bash
-npm run serve
-```
-
-The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
-
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**). -->
-
+<!--MEMOTRON_START-->
 # Introduction
 
 Thanks a lot for choosing Memotron - our thoughtfully crafted tool for your memory and thinking assistance 🙏 🎉 .
@@ -71,7 +45,7 @@ To put it into a single sentence, Memotron is an unbelievably powerful, insanely
 
 ### Why Memotron?
 
-Memotron isn't just another digital organizer or a PKM tool. We consciously crafted it keeping all our digital lives and workflows in mind. Read our [NCCL system](./core.md) to dive deeper into our design decisions and architecture.
+Memotron isn't just another digital organizer or a PKM tool. We consciously crafted it keeping all our digital lives and workflows in mind. Read our [NCCL system](/memotron/core) to dive deeper into our design decisions and architecture.
 
 To summarize, here's what sets Memotron apart:
 
@@ -123,10 +97,29 @@ Memotron isn't just about managing information - it's a tool for reflection, per
 
 ### Getting Started
 
-Ready to enhance your cognitive capabilities and improve your quality of life? Dive into our [Quick start guide](./quickstart.md) section to begin your Memotron journey.
+Ready to enhance your cognitive capabilities and improve your quality of life? Dive into our [Quick start guide](/memotron/quickstart) section to begin your Memotron journey.
 
-For those eager to explore further, our [Product deep dive](./core.md) section offer detailed insights into Memotron's potential across various scenarios.
+For those eager to explore further, our [Product deep dive](/memotron/core) section offer detailed insights into Memotron's potential across various scenarios.
 
 Welcome to a new era of thinking, creating, and growing. Welcome to Memotron.
+<!--MEMOTRON_END-->
 
-*Updated on January 11, 2025*
+
+<!--POINTRON_START-->
+# Introduction
+
+Welcome to Pointron - your focus haven for productive work 🎯 ✨
+
+Yet to be updated
+<!--POINTRON_END-->
+
+<!--DEFAULT_START-->
+# Introduction
+
+Welcome to our documentation
+
+[... Default content ...]
+<!--DEFAULT_END-->
+
+
+*Updated on February 26, 2025*

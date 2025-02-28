@@ -1,6 +1,7 @@
 ---
 title: Date and time
 sidebar_label: Date and time
+draft: true
 ---
 
 As we are becoming increasingly global & digital citizens, the apps we use should also leave a room for us to configure our timezone, when we start our day, what time scales we prefer to look at our life timeline etc.

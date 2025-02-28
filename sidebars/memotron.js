@@ -1,4 +1,5 @@
 // @ts-check
+import { docs } from "./docs";
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
@@ -6,7 +7,7 @@ const sidebars = {
     {
       type: "doc",
       label: "Introduction",
-      id: "memotron/intro",
+      id: "intro",
       // customProps: { icon: "GameController" },
     },
     {
@@ -51,48 +52,21 @@ const sidebars = {
           label: "Nodes",
           link: {
             type: "doc",
-            id: "memotron/features/nodes",
+            id: "features/nodes",
           },
-          items: ["memotron/features/nodes/markdown"],
+          items: ["features/nodes/markdown"],
         },
-        {
-          type: "category",
-          label: "Collections",
-          link: {
-            type: "doc",
-            id: "memotron/features/collections",
-          },
-          items: [
-            "memotron/features/collections/simple",
-            "memotron/features/collections/typed",
-            "memotron/features/collections/query",
-            "memotron/features/collections/views",
-            "memotron/features/collections/play-modes",
-          ],
-        },
-        "memotron/features/combinations",
-        "memotron/features/link-tags",
+        docs.collections,
+        "features/combinations",
+        "memotron/features/relations",
         "memotron/features/capture",
         "memotron/features/bird-view",
         "memotron/features/search",
         "memotron/features/local-ai",
-        "memotron/features/offline-use",
-        {
-          type: "category",
-          label: "Customization",
-          link: {
-            type: "doc",
-            id: "memotron/features/customization",
-          },
-          items: [
-            "memotron/features/customization/mode-of-interaction",
-            "memotron/features/customization/appearance",
-            "memotron/features/customization/date-and-time",
-          ],
-        },
-        "memotron/features/opening-behaviour",
+        "features/opening-behaviour",
       ],
     },
+    docs.customization,
     {
       type: "category",
       label: "Web Clipper",
@@ -126,15 +100,6 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Roadmap",
-      link: {
-        type: "doc",
-        id: "memotron/roadmap",
-      },
-      items: ["memotron/roadmap/everything-planned"],
-    },
-    {
-      type: "category",
       label: "Switch from other tools",
       link: {
         type: "doc",
@@ -146,26 +111,11 @@ const sidebars = {
         "memotron/switch-from-other-tools/capacities",
       ],
     },
-    {
-      type: "doc",
-      label: "Best practices",
-      id: "memotron/best-practices",
-    },
-    {
-      type: "doc",
-      label: "Delete Account",
-      id: "memotron/delete-account",
-    },
-    {
-      type: "doc",
-      label: "Green use",
-      id: "memotron/green-use",
-    },
-    {
-      type: "doc",
-      label: "Credits and appriciation",
-      id: "memotron/credits-and-appreciation",
-    },
+    "memotron/best-practices",
+    "delete-account",
+    "offline-use",
+    "memotron/green-use",
+    "credits-and-appreciation",
     {
       type: "html",
       value: "Useful links",

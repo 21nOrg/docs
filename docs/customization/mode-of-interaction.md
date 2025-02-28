@@ -11,7 +11,7 @@ Well, techies like to perform actions with a single command while not very geeky
 
 3. Command only
 
-4. Voice only mode (Will be available from v0.60+)
+4. Agent mode (Will be available from v0.60+)
 
 ### Default
 
@@ -25,8 +25,8 @@ If you are someone who prefers to use keyboard more, this is the mode for you. W
 
 Command only is taking keyboard centric interaction to next level. All that verbose design will hide away making way to a very simple but yet powerful command bar. Use command bar to search and perform any action in the app. Every action is one command away no matter how many mouse interactions deep that is in verbose mode.
 
-### Voice only mode
+### Agent mode (coming soon...)
 
-We are in 21st century and we already have early AGI taking rides. Voice only mode is command only mode but commanding with voice. We want to use this mode as much as you look forward to it. We will be releasing this mode of interaction in our upcoming release.
+We are in 21st century and we already have early AGI taking rides. Agent mode is command only mode but performing multiple actions at once with simple commands. We want to use this mode as much as you look forward to it. We will be releasing this mode of interaction in our upcoming release.
 
-*Updated on January 11, 2025, 3:48 AM UTC*
+*Updated on February 26, 2025*
