@@ -3,22 +3,12 @@ title: Pointron roadmap
 ---
 # Pointron roadmap
 
-## Up next: v0.82.0
-> Scheduled release: March 2025
+## Up next: v0.83.0
+> Scheduled release: April 2025
 
-* App loading time and performance improvements
-* Full offlinability and offline user mode
-* Goals
-  * New redesigned goal page
-  * Sub goals nesting, reordering and more
-  * Sub goals as steps, boards, tabs layout
-  * Tasks in goal
-  * Goal analytics
-  * Goal history
-* Tasks
-* New library page to browse Goals, Tasks, Habits, Collections and more
-* Collections to organize tasks and add properties
-* Bug fixes and small improvements
+* Windows app
+* Android app
+* Calendar - journal layout
 
 
 ---

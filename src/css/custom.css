@@ -54,7 +54,7 @@ body {
 /* ********** Navbar ********** */
 .navbar {
   /* backdrop-filter: blur(10px); */
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   box-shadow: none;
   border-bottom: 1px solid var(--ifm-toc-border-color);
   height: 4rem;
@@ -117,7 +117,7 @@ html:not([data-theme='dark']) .clean-btn:hover {
 }
 
 [data-theme='dark'] .navbar {
-  background-color: rgba(36, 37, 38, 0.8);
+  background-color: rgba(36, 37, 38, 1);
 }
 
 .navbar__title {
@@ -269,6 +269,19 @@ summary::after {
   opacity: 0.6;
 }
 
+.collapseSidebarButton_PEFL svg, .expandButton_TmdG svg {
+  display: none !important;
+}
+
+.collapseSidebarButton_PEFL::after {
+  content: "−" !important;
+  font-size: 1rem !important;
+  color: var(--ifm-toc-border-color) !important;
+}
+
+.expandButton_TmdG::after {
+  content: "→" !important;
+}
 
 
 /* .menu__link {
