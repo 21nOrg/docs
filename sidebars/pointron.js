@@ -14,6 +14,11 @@ const sidebars = {
       className: "sidebar-section",
     },
     {
+      type: "doc",
+      label: "Quick start",
+      id: "pointron/quickstart",
+    },
+    {
       type: "category",
       label: "Installation",
       link: {

@@ -110,7 +110,18 @@ Welcome to a new era of thinking, creating, and growing. Welcome to Memotron.
 
 Welcome to Pointron - your focus haven for productive work 🎯 ✨
 
-Yet to be updated
+In today's fast-paced world, staying focused and productive can feel like an uphill battle. That's where Pointron comes in - a thoughtfully designed tool that helps you maintain laser-sharp focus and achieve more in less time.
+
+1. **Distraction-free environment:** Pointron creates a serene digital workspace with advanced focusing capabilities to help you stay in the flow, making deep work not just possible, but natural.
+
+2. **Time-aware productivity:** Understanding that time is your most valuable resource, Pointron helps you make the most of it. With features like intuitive task management, powerful ways to focus, and insightful productivity analytics, you can optimize your work patterns and achieve better results.
+
+3. **Flexibility meets structure:** Whether you're a creative professional, knowledge worker, or student, Pointron adapts to your unique workflow. Its flexible system allows you to organize tasks and projects your way, while providing just enough structure to keep you on track.
+
+4. **Beyond task management:** Pointron isn't just about checking off tasks - it's about fostering a sustainable and enjoyable way of working. By helping you maintain a healthy work-life balance and preventing burnout, Pointron ensures that productivity doesn't come at the cost of well-being.
+
+
+Ready to transform the way you work? Dive into our [Quick start guide](/pointron/quickstart) to begin your journey with Pointron.
 <!--POINTRON_END-->
 
 <!--DEFAULT_START-->
