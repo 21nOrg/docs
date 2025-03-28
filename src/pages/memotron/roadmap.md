@@ -10,12 +10,12 @@ title: Memotron roadmap
 * watchOS audio capture
 * Query collections, filters and sorting in collections
 * Calendar - journal layout
-
+* Reliability improvements
+  
 ---
 ## Everything that's planned
 
 > This is our public roadmap of all features and sub features that we will be building in the upcoming months.
-> _Please see [here](https://memotron.supahub.com/roadmap) for user suggested features._
 
 - Combinations
 - Calendar
