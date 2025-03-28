@@ -111,7 +111,7 @@ const titleConfig = {
     favicon: "img/memotron.ico",
     logo: {
       light: "img/memotron-light.png",
-      dark: "img/memotron-dark.webp",
+      dark: "img/memotron-dark.png",
     },
   },
   pointron: {
@@ -155,6 +155,9 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+
+  // Add client modules for Vercel Analytics
+  clientModules: [require.resolve("./src/vercel-analytics.js")],
 
   presets: [
     [
