@@ -7,7 +7,7 @@ Follow along this guide to understand Memotron’s design and concepts from the 
 
 ### Concept mapping
 
-Below is a concept map of Notion when compared to Memotron.
+Below is a concept map of Capacities when compared to Memotron.
 
 **Capacities → Memotron**
 
@@ -73,4 +73,4 @@ Daily notes → Journal ([planned](../roadmap.md): v0.60+)
 
 NA
 
-*Updated on January 27, 2025, 11:44 AM UTC*
+*Updated on January 27, 2025*

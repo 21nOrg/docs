@@ -7,7 +7,7 @@ Follow along this guide to understand Memotron’s design and concepts from the 
 
 ### Concept mapping
 
-Below is a concept map of Notion when compared to Memotron.
+Below is a concept map of Obsidian when compared to Memotron.
 
 **Obsidian → Memotron**
 
@@ -25,7 +25,7 @@ Canvas → Combination: whiteboard view ([planned](../roadmap.md): v0.60+)
 
 ### What you will get switching to Memotron?
 
-1. Intuitiveness of information architecture and relationship management. You can learn more about our architecture [here](../roadmap/everything-planned.md).
+1. Intuitiveness of information architecture and relationship management. You can learn more about our architecture [here](../core.md).
 
 2. Extremely intuitive capture.
 
@@ -65,4 +65,4 @@ Canvas → Combination: whiteboard view ([planned](../roadmap.md): v0.60+)
 
 NA
 
-*Updated on January 27, 2025, 12:04 PM UTC*
+*Updated on January 27, 2025*
