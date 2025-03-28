@@ -8,17 +8,17 @@ sidebar_label: Core concepts
 
 Mentioned below is the hierarchy of information in Pointron.
 
-[Tasks](/docs/features/tasks) (Atomic)
+[Tasks](/features/tasks) (Atomic level)
 
 ⇊
 
-[Goals](/docs/features/goals) (Mid level)
+[Goals](/features/goals) (Mid level)
 
 ⇊
 
-[Collections](/docs/features/collections) (High level)
+[Collections](/features/collections) (High level)
 
 ⇊
 
-[Combinations](/docs/features/combinations) (High level)
+[Combinations](/features/combinations) (High level)
 
