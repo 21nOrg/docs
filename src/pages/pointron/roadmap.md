@@ -6,9 +6,13 @@ title: Pointron roadmap
 ## Up next: v0.83.0
 > Scheduled release: April 2025
 
-* Windows app
-* Android app
+* End to end encryption for cloud sync plan
+* Query collections, filters and sorting in collections
 * Calendar - journal layout
+* watchOS app
+* iOS and watchOS widgets
+  - Live widget for running focus
+  - Analytics widget
 
 
 ---

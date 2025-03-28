@@ -3,15 +3,13 @@ title: Memotron roadmap
 ---
 # Memotron roadmap
 
-## Up next: v0.59.0
-> Scheduled release: March 2025
+## Up next: v0.60.0
+> Scheduled release: April 2025
 
 * End to end encryption for cloud sync plan
-* Cloud sync paid plan
-* Tasks
-* Timeline layout in Node bird view
-* Bug fixes and small improvements
-
+* watchOS audio capture
+* Query collections, filters and sorting in collections
+* Calendar - journal layout
 
 ---
 ## Everything that's planned
