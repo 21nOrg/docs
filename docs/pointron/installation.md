@@ -7,7 +7,7 @@ sidebar_label: Installation
 import CustomButton from '@site/src/components/CustomButton';
 
 
-Pointron stable version is currently available as a web app. Other apps are in early development and are available from respective stores via [Preview apps](./preview-apps.md).
+Pointron stable version is currently available as a web app, iOS app and macOS app. Other apps are in early development and are available from respective stores via [Preview apps](./preview-apps.md).
 
 <CustomButton
   color="#3498db" 
@@ -23,14 +23,14 @@ Pointron stable version is currently available as a web app. Other apps are in e
   icon="WindowsLogo" 
   weight="fill"
 /><br/><br/> -->
-<!-- 
+
 <CustomButton
   color="#000" 
-  url="https://apps.apple.com/in/app/memotron-your-memory-atlas/id6737236940"
-  title="App store (ios / iPadOS)"
+  url="https://apps.apple.com/in/app/pointron-focus-time-tracker/id6469411284"
+  title="Download from App Store"
   icon="AppleLogo" 
   weight="fill"
-/><br/><br/> -->
+/><br/><br/>
 
 Windows and Linux apps will be available soon… Check our roadmap [here](/pointron/roadmap). If you are interested to beta test our apps, please join our [Discord](https://discord.com/invite/9HJqKYTZKg) for regular updates.
 
@@ -44,6 +44,6 @@ Optionally, you can install the web app as a PWA (Progressive Web App) to quickl
 
 
 
-*Updated on March 20, 2025*
+*Updated on March 29, 2025*
 
 
