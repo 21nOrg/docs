@@ -111,7 +111,7 @@ const titleConfig = {
     favicon: "img/memotron.ico",
     logo: {
       light: "img/memotron-light.png",
-      dark: "img/memotron-dark.webp",
+      dark: "img/memotron-dark.png",
     },
   },
   pointron: {

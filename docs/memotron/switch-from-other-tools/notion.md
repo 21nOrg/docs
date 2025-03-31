@@ -24,7 +24,7 @@ Notion Calendar → Calendar ([planned](./obsidian.md): v0.62+)
 
 ### What you will get switching to Memotron?
 
-1. Intuitiveness of information architecture and relationship management. You can learn more about our architecture [here](./capacities.md).
+1. Intuitiveness of information architecture and relationship management. You can learn more about our architecture [here](../core.md).
 
 2. Extremely intuitive capture.
 
@@ -90,4 +90,4 @@ Notion Calendar → Calendar ([planned](./obsidian.md): v0.62+)
 
 Memotron doesn’t have a relation property. But this is intentional. As per the design of the app where relationships between nodes is required, you can use link tags instead.
 
-*Updated on January 27, 2025, 12:18 PM UTC*
+*Updated on January 27, 2025*
