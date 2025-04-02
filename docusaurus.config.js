@@ -221,6 +221,21 @@ const config = {
         sidebarPath: require.resolve("./sidebars/pointron-changelog.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-client-redirects",
+      {
+        redirects: [
+          {
+            from: "/changelog/memotron/new",
+            to: "/changelog/memotron/2025/Q1/v0.59.0",
+          },
+          {
+            from: "/changelog/pointron/new",
+            to: "/changelog/pointron/2025/Q1/v0.82.0",
+          },
+        ],
+      },
+    ],
     function (context, options) {
       return {
         name: "process-conditional-content",
