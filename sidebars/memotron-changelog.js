@@ -3,7 +3,7 @@ module.exports = {
     {
       type: "doc",
       label: "💥 What's new (v0.59.0)",
-      id: "v0.59.0",
+      id: "2025/Q1/v0.59.0",
     },
     "2025/Q1/v0.58.1",
     "2025/Q1/v0.58.0",
@@ -34,7 +34,7 @@ module.exports = {
     {
       type: "category",
       label: "2024",
-      collapsed: true,
+      collapsed: false,
       items: [
         "2024/Q4/v0.57.0",
         "2024/Q4/v0.56.11.4",

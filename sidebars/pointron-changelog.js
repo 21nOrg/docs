@@ -3,7 +3,7 @@ module.exports = {
     {
       type: "doc",
       label: "💥 What's new (v0.82.0)",
-      id: "v0.82.0",
+      id: "2025/Q1/v0.82.0",
     },
     {
       type: "html",
