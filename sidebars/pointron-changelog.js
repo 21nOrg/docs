@@ -2,9 +2,10 @@ module.exports = {
   pointronChangelogSidebar: [
     {
       type: "doc",
-      label: "💥 What's new (v0.82.0)",
-      id: "2025/Q1/v0.82.0",
+      label: "💥 What's new (v0.82.1)",
+      id: "2025/Q2/v0.82.1",
     },
+    "2025/Q1/v0.82.0",
     {
       type: "html",
       value: "2024",
