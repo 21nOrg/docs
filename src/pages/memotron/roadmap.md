@@ -17,7 +17,6 @@ title: Memotron roadmap
 
 > This is our public roadmap of all features and sub features that we will be building in the upcoming months.
 
-- Combinations
 - Calendar
 - Data backup
   - G drive
@@ -32,19 +31,18 @@ title: Memotron roadmap
     - Obsidian
     - Capacities
     - More...
-- Voice mode
+- Agent mode of interaction
 - Summarizers
 - Publish to web
 - Sharing
 - Links suggestions
 - 3rd party Integrations
-- Public API
+- Public API, MCP (Model Control Protocol) server
 - Full app functionality in the extension - capture, collections etc.
 - Distribution
   - watch apps (Audio capture)
   - TV apps (Retrospection features)
   - visionOS app (Retrospection features)
-- Nucleus - Deep integration with Pointron, Selftron & Feedtron
 - Languages support
 - Rewind
 - Global graph
@@ -53,8 +51,8 @@ title: Memotron roadmap
 - Simple email sign in
   - Magic link/ OTP
 
-### Node
 
+### Node
 - Forking
 - Full history and versioning
 - Audio time stamping
@@ -68,11 +66,10 @@ title: Memotron roadmap
         - Grouping
         - Infinite depth
         - Algorithm settings
-    - Fuzzy view
 - Auto properties
 
-### Collection
 
+### Collection
 - Advanced views - Map, Calendar, Table
 - Query Collections
 - Content templates - typed collection
@@ -81,14 +78,8 @@ title: Memotron roadmap
 - Time machine
 - AI cover photo generation
 
-### Combination
-
-- Mind map layout
-- Whiteboard layout
-- Dashboard layout
 
 ### Clipping
-
 - Socials
     - Linkedin clipping
         - Linkedin profile
@@ -125,4 +116,4 @@ title: Memotron roadmap
         - Youtube playlist import
 
 ---
-*Updated on February 25, 2025*
+*Updated on April 09, 2025*
