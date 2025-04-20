@@ -2,10 +2,21 @@
 title: Pointron roadmap
 ---
 # Pointron roadmap
+This is our public roadmap of all features and sub features that we will be building in the upcoming months.
 
-## Up next: v0.83.0
-> Scheduled release: April 2025
+## Up next
 
+### v0.82.x
+> Ongoing: April 2025
+- Ability to pick tasks from calendar for focus items
+- Ability to add goals to focus presets
+- Keyboard shortcut improvements
+- Reliability and performance improvements
+- Other small improvements and bug fixes
+
+
+### v0.83.0
+* [Surprise security and data ownership feature]
 * End to end encryption for cloud sync plan
 * Query collections, filters and sorting in collections
 * Calendar - journal layout
@@ -16,23 +27,22 @@ title: Pointron roadmap
 
 
 ---
-## Everything that's planned
-> What’s planned for Pointron
+## Planned
+> All features that are planned but not yet scheduled for a release.
 
-​
 ### Focus
+- Improved alerts/notifications
 - Improved notes
 - Sounds and background music
-  - Background sounds reintroduction
+  - Background sounds
   - Spotify integration
   - Custom alert sounds
   - Pre focus start sound
-- Co sessions - shared sessions and groups
+- Co sessions - shared sessions
 
 ### Goals
 - Progress tracking
 - Billing and budgeting
-- AI Insights
 
 ### Tasks
 - Repetition intervals
@@ -44,14 +54,18 @@ title: Pointron roadmap
 
 
 ### More
-- Desktop app - Windows, linux
-- Android app
-- Reports
+- Importing from other apps
 - watchOS app
 - iOS and watchOS widgets
   - Live widget for running focus
   - Targets widget
   - Analytics widget
   - Goal progress widget
+- AI Insights
+- Desktop app - Windows, Linux
+- Android app
+- Reports
 - VisionOS app
 
+---
+*Updated on April 19, 2025*
