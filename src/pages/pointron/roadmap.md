@@ -7,10 +7,7 @@ This is our public roadmap of all features and sub features that we will be buil
 ## Up next
 
 ### v0.82.x
-> Ongoing: April 2025
-- Ability to pick tasks from calendar for focus items
-- Ability to add goals to focus presets
-- Keyboard shortcut improvements
+> Ongoing
 - Reliability and performance improvements
 - Other small improvements and bug fixes
 
