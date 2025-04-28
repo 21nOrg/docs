@@ -231,7 +231,7 @@ const config = {
           },
           {
             from: "/changelog/pointron/new",
-            to: "/changelog/pointron/2025/Q2/v0.82.2",
+            to: "/changelog/pointron/2025/Q2/v0.82.3",
           },
         ],
       },
