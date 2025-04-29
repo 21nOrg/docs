@@ -13,8 +13,11 @@ This is our public roadmap of all features and sub features that we will be buil
 
 
 ### v0.83.0
+> Scheduled for May 2025
 * [Surprise security and data ownership feature]
 * End to end encryption for cloud sync plan
+
+### Later
 * Query collections, filters and sorting in collections
 * Calendar - journal layout
 * watchOS app
