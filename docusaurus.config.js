@@ -227,7 +227,7 @@ const config = {
         redirects: [
           {
             from: "/changelog/memotron/new",
-            to: "/changelog/memotron/2025/Q1/v0.59.0",
+            to: "/changelog/memotron/2025/Q2/v0.56.5-web-clipper",
           },
           {
             from: "/changelog/pointron/new",
