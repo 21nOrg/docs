@@ -17,13 +17,16 @@ This is our public roadmap of all features and sub features that we will be buil
 * PDF improvements, PDF clips as first class nodes
 * iOS share
 * Keyboard shortcut improvements
+* Markdown improvements
 * Reliability and performance improvements
 * Other small improvements and bug fixes
 
 ### v0.60.0
-
+> Scheduled for May 2025
 * [Surprise security and data ownership feature]
 * End to end encryption for cloud sync plan
+
+### Later
 * watchOS audio capture
 * Query collections, filters and sorting in collections
 * Calendar - journal layout

@@ -47,9 +47,7 @@ const sidebars = {
       items: [
         "features/goals",
         "features/tasks",
-        "features/habits",
         docs.collections,
-        "features/combinations",
         "features/opening-behaviour",
       ],
     },

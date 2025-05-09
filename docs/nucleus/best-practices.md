@@ -23,7 +23,7 @@ As with any tools that has a lot of features, Pointron if not used efficiently c
   - Study for SAT exam
 
 
-## Indefinite goal vs Repeating task
+## Indefinite goal vs Repeating task vs Habit
 
 * Indefinite goal: A simple objective that you want to achieve that doesn't have the below
   * No deadline and fixed timeline
@@ -33,7 +33,9 @@ As with any tools that has a lot of features, Pointron if not used efficiently c
 * Repeating task: A light-weight task that you want to perform regularly at set intervals.
   * You don't want to remember to perform this task and you need reminders to perform this task.
   * You are sure when and how often you want to perform this task.
-
+  
+* Habit: A light-weight task that you want to perform regularly at set intervals and you want to habitually perform this work without any external reminders.
+    * This requires a natural cue from your life or environment to form the habit.
 
 ### Examples
 - Indefinite goal: 
@@ -43,6 +45,16 @@ As with any tools that has a lot of features, Pointron if not used efficiently c
   - Read for 1 hour every other day
   - Tax routine - every year on Jan 1st
   - Home maintenance routine - every 15 days
+- Habit: 
+  - Make the bed every day after waking up
+  - Listen to podcasts every day while driving to work
+  - Run 5km every alternative day during sun rise
+  - Journal every sunday before bed
 
 
-*Updated on April 29, 2025*
+<!-- ## Indefinite goal with sub goals vs Collection vs Combination
+ -->
+
+
+
+*Updated on February 26, 2025*
