@@ -14,8 +14,8 @@
   --ifm-color-primary-lighter: #5f81e9;
   --ifm-color-primary-lightest: #7c98ed;
   --ifm-code-font-size: 95%;
-  --ifm-font-family-base: 'Hanken Grotesk', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
-  --ifm-heading-font-family: 'Hanken Grotesk', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+  --ifm-font-family-base: 'Space Grotesk', system-ui, -apple-system, Hanken Grotesk, sans-serif;
+  --ifm-heading-font-family: 'Space Grotesk', system-ui, -apple-system, Hanken Grotesk, sans-serif;
   --doc-sidebar-width: 300px !important;
   --sidebar-item-active-background-color: #eaf2ff;
 }
@@ -378,4 +378,11 @@ padding: 0.1rem 0.5rem;
 
 .searchBar:focus-within {
   border-color: grey;
+}
+
+.iconExternalLink_nPIU {
+  /* display: none !important;
+   */
+   opacity: 50;
+   color: grey;
 }

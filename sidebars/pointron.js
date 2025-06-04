@@ -52,11 +52,61 @@ const sidebars = {
       ],
     },
     docs.customization,
+    // {
+    //   type: "html",
+    //   value: "Use cases",
+    //   className: "sidebar-section",
+    // },
+    // "pointron/use-cases/focus",
+    // "pointron/use-cases/timetracking",
+    // "pointron/use-cases/goalmanagement",
+    // "pointron/use-cases/supertasking",
+    // {
+    //   type: "category",
+    //   label: "By profession",
+    //   link: {
+    //     type: "doc",
+    //     id: "pointron/use-cases/by-profession",
+    //   },
+    //   items: [
+    //     "pointron/use-cases/by-profession/student",
+    //     "pointron/use-cases/by-profession/freelancer",
+    //     "pointron/use-cases/by-profession/founder",
+    //   ],
+    // },
+    // {
+    //   type: "category",
+    //   label: "By method",
+    //   link: {
+    //     type: "doc",
+    //     id: "pointron/use-cases/by-method",
+    //   },
+    //   items: [
+    //     "pointron/use-cases/by-method/para",
+    //     "pointron/use-cases/by-method/timeboxing",
+    //   ],
+    // },
     {
       type: "html",
       value: "More",
       className: "sidebar-section",
     },
+    // {
+    //   type: "category",
+    //   label: "Switch from other tools",
+    //   link: {
+    //     type: "doc",
+    //     id: "pointron/switch-from-other-tools",
+    //   },
+    //   items: [
+    //     "pointron/switch-from/todoist",
+    //     "pointron/switch-from/sunsama",
+    //     "pointron/switch-from/ticktick",
+    //     "pointron/switch-from/atracker",
+    //     "pointron/switch-from/session",
+    //     "pointron/switch-from/toggl",
+    //   ],
+    // },
     "pointron/best-practices",
     "delete-account",
     "offline-use",

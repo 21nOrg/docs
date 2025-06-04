@@ -6,7 +6,7 @@ sidebar_label: Installation
 import CustomButton from '@site/src/components/CustomButton';
 
 
-Memotron stable version is currently available as a web app, iOS app and Windows app. Other apps are in early development and are available from respective stores via [Preview apps](./preview-apps.md).
+Memotron stable version is currently available as a web app, iOS app and macOS app. Other apps are in early development and are available from respective stores via [Preview apps](./preview-apps.md).
 
 <CustomButton
   color="#3498db" 
@@ -15,23 +15,16 @@ Memotron stable version is currently available as a web app, iOS app and Windows
   icon="Globe" 
 /><br/><br/>
 
-<CustomButton
-  color="#000" 
-  url="https://apps.microsoft.com/detail/9n3w73wbxb7m?hl=en-us&gl=IN&ocid=pdpshare"
-  title="Microsoft store (Windows)"
-  icon="WindowsLogo" 
-  weight="fill"
-/><br/><br/>
 
 <CustomButton
   color="#000" 
   url="https://apps.apple.com/in/app/memotron-your-memory-atlas/id6737236940"
-  title="App store (ios / iPadOS)"
+  title="Download from App store"
   icon="AppleLogo" 
   weight="fill"
 /><br/><br/>
 
-Linux apps will be available soon… Check our roadmap [here](./roadmap.md). If you are interested to beta test our apps, please join our [Discord](https://discord.com/invite/9HJqKYTZKg) for regular updates.
+Other platform apps will be available soon… Check our roadmap [here](./roadmap.md). If you are interested to beta test our apps, please join our [Discord](https://discord.com/invite/9HJqKYTZKg) for regular updates.
 
 ---
 
