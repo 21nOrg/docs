@@ -4,6 +4,14 @@ sidebar_label: Quick start
 ---
 # Quick start
 
+Memotron Alpha version full tutorial:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SdDRE53zLiM" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 ## 1. Start by creating a new goal.
 You can create a new goal by going to Library -> Goals -> Create new goal.
 

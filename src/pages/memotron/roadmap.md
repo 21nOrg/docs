@@ -8,29 +8,26 @@ This is our public roadmap of all features and sub features that we will be buil
 
 ## Up next
 
-### v0.59.x
-> Ongoing: April-May 2025
+### v0.60.0
+> June 2025
 
 * Audio transcription improvements using Local AI (huge performance improvements)
-* Web clipper performance and reliability improvements
+* App performance improvements
 * Search improvements
 * PDF improvements, PDF clips as first class nodes
+* Node custom preview image
 * iOS share
-* Keyboard shortcut improvements
 * Markdown improvements
 * Reliability and performance improvements
 * Other small improvements and bug fixes
 
-### v0.60.0
-> Scheduled for May 2025
-* [Surprise security and data ownership feature]
-* End to end encryption for cloud sync plan
 
 ### Later
+* End to end encryption for cloud sync plan
 * watchOS audio capture
 * Query collections, filters and sorting in collections
-* Calendar - journal layout
-* Reliability improvements
+* Calendar - heatmap layout
+* Summarizers
   
 ---
 ## Planned
