@@ -9,7 +9,7 @@ This is our public roadmap of all features and sub features that we will be buil
 ## Up next
 
 ### v0.60.0
-> June-July 2025
+> June 2025
 
 * Audio transcription improvements using Local AI (huge performance improvements)
 * App performance improvements

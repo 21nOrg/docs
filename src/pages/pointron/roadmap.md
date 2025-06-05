@@ -7,7 +7,7 @@ This is our public roadmap of all features and sub features that we will be buil
 ## Up next
 
 ### v0.82.x
-> Ongoing
+> June 2025
 - Reliability and performance improvements
 - Other small improvements and bug fixes
 
@@ -15,7 +15,7 @@ This is our public roadmap of all features and sub features that we will be buil
 ### Later
 * End to end encryption for cloud sync plan
 * Query collections, filters and sorting in collections
-* Calendar - journal layout
+* Calendar - heatmap layout
 * watchOS app
 * iOS and watchOS widgets
   - Live widget for running focus
