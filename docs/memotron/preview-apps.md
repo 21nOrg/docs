@@ -18,6 +18,16 @@ If you are excited about what’s coming next and would like to help us report a
   weight="fill"
 /><br/>
 
+### Windows
+
+<CustomButton
+  color="#000" 
+  url="https://apps.microsoft.com/detail/9n3w73wbxb7m?hl=en-us&gl=IN&ocid=pdpshare"
+  title="Microsoft store (Windows)"
+  icon="WindowsLogo" 
+  weight="fill"
+/><br/><br/>
+
 ### Android
 
 <CustomButton
@@ -32,7 +42,7 @@ If you are excited about what’s coming next and would like to help us report a
 
 ## Chrome extension
 
-1. Download the extension by clicking [here](../../src/images/memotron-docs/memotron-clipper-v0.56.4-build-3%20(1).zip) . (Please wait for 4-5 secs for the auto download to start)
+1. Download the extension preview version by clicking [here](../../src/images/memotron-docs/memotron-clipper-v0.56.4-build-3%20(1).zip) . (Please wait for 4-5 secs for the auto download to start)
 
 2. Open your browser
 
