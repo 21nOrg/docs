@@ -2,9 +2,10 @@ module.exports = {
   memotronChangelogSidebar: [
     {
       type: "doc",
-      label: "💥 What's new (v0.59.2)",
-      id: "2025/Q2/v0.59.2",
+      label: "💥 What's new (v0.59.4)",
+      id: "2025/Q2/v0.59.4",
     },
+    "2025/Q2/v0.59.2",
     "2025/Q2/v0.56.5-web-clipper",
     "2025/Q2/v0.59.1",
     "2025/Q1/v0.59.0",

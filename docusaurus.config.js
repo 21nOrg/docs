@@ -227,11 +227,11 @@ const config = {
         redirects: [
           {
             from: "/changelog/memotron/new",
-            to: "/changelog/memotron/2025/Q2/v0.59.2",
+            to: "/changelog/memotron/2025/Q2/v0.59.4",
           },
           {
             from: "/changelog/pointron/new",
-            to: "/changelog/pointron/2025/Q2/v0.82.4",
+            to: "/changelog/pointron/2025/Q2/v0.82.5",
           },
         ],
       },
