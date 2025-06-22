@@ -10,9 +10,11 @@ Follow along this guide for a walkthrough of features in our Web clipper.
 | Description | Shortcut |
 |:----------------|:-------------|
 | Save web page | Ctrl + J |
-| Toggle screenshot mode | Ctrl + I |
+| Toggle screenshot mode | Ctrl + Shift + I |
 | Minimize/Expand toolbar | Alt + M |
 | Hide/Show toolbar | Alt + X |
+| Activate link box | No default - user customizable |
+
 
 Please replace ```Ctrl``` with ```Cmd``` , ```Alt``` with ```Opt``` for mac users. You can visit `chrome://extensions/shortcuts` to customize the shortcuts.
 
