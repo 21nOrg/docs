@@ -47,15 +47,7 @@ const sidebars = {
         id: "memotron/features",
       },
       items: [
-        {
-          type: "category",
-          label: "Nodes",
-          link: {
-            type: "doc",
-            id: "features/nodes",
-          },
-          items: ["features/nodes/markdown"],
-        },
+        docs.nodes,
         docs.collections,
         "features/combinations",
         "memotron/features/relations",

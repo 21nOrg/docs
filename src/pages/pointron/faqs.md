@@ -28,7 +28,7 @@ title: Frequently asked questions
 
 ---
 
-## App
+## App & plans
 
 <details>
   <summary data-summary-text="What is the difference between offline account and cloud sync account?"></summary>
@@ -41,6 +41,33 @@ title: Frequently asked questions
 <details>
   <summary data-summary-text="Do I have to pay for cloud sync account?"></summary>
   Monetizing cloud sync account is how we planned to sustain the product. We value our user’s privacy and we would never sell any kind of user information by any means. Right now (Nov 2024), the cloud sync account is free to use. We will be introduced payment plans starting early 2025. We are trying to reduce the cost for cloud sync as much as possible and as a rough estimation, the cost will not be more than $10 per month.
+</details>
+
+
+<details>
+  <summary data-summary-text="What is offline mode?"></summary>
+
+  Cloud users can still use the app offline when they are not connected to the internet or intentionally wants to do so. Just go to Settings → Sync → Turn on offline mode. Your data will be synced once you are back online.
+</details>
+
+<details>
+  <summary data-summary-text="Do I need to enter my payment information to use free trial?"></summary>
+ No, you can use the free trial without entering your payment information or subscribing to any plan. Your free trial auto starts once your signup on the app.
+</details>
+
+<details>
+  <summary data-summary-text="Are there any limits on offline version of the app?"></summary>
+All features are available on offline version of the app without any limitations or restrictions whatsoever.
+</details>
+
+<details>
+  <summary data-summary-text="Is there any chance of price increase in the future?"></summary>
+No, there won't be any. In fact, we will be reducing the price of the plans in the future if more users start using the app. This is because of our preference for cost-based pricing over [value-based](https://www.madx.digital/glossary/value-based-pricing) (profit maximization) pricing to keep the costs low for you.
+</details>
+
+<details>
+  <summary data-summary-text="Can I cancel once I subscribe?"></summary>
+Yes, you can cancel within grace period for yearly and lifetime plans. The grace period is 14 days for yearly plans and 1 month for lifetime plans. We do not have any hidden fees or contracts. Kindly email us at hello@21n.org if you have any questions.
 </details>
 
 

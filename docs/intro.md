@@ -124,6 +124,13 @@ In today's fast-paced world, staying focused and productive can feel like an uph
 Ready to transform the way you work? Dive into our [Quick start guide](/pointron/quickstart) to begin your journey with Pointron.
 <!--POINTRON_END-->
 
+<!--NUCLEUS_START-->
+# Introduction
+
+Welcome to Nucleus! While we're working on improving our docs, please navigate to next sections to dive deep into concepts of Nucleus.
+
+<!--NUCLEUS_END-->
+
 <!--DEFAULT_START-->
 # Introduction
 

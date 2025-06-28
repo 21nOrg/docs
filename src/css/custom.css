@@ -386,3 +386,13 @@ padding: 0.1rem 0.5rem;
    opacity: 50;
    color: grey;
 }
+
+.alert--info {
+  --ifm-alert-border-color: rgb(216, 216, 216);
+  --ifm-alert-background-color: #fafafa;
+}
+
+[data-theme='dark'] .alert--info {
+  --ifm-alert-border-color: rgb(94, 94, 94);
+  --ifm-alert-background-color: #1a1b1e;
+}

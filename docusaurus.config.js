@@ -125,7 +125,7 @@ const titleConfig = {
   },
   default: {
     title: "Nucleus",
-    tagline: "The everything productivity app",
+    tagline: "Your digital harmony",
     favicon: "img/nucleus.ico",
     logo: {
       light: "img/nucleus-light.png",
@@ -222,6 +222,24 @@ const config = {
       },
     ],
     [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "nucleusChangelog",
+        path: "changelog/nucleus",
+        routeBasePath: "changelog/nucleus",
+        sidebarPath: require.resolve("./sidebars/nucleus-changelog.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "clipperChangelog",
+        path: "changelog/clipper",
+        routeBasePath: "changelog/clipper",
+        sidebarPath: require.resolve("./sidebars/clipper-changelog.js"),
+      },
+    ],
+    [
       "@docusaurus/plugin-client-redirects",
       {
         redirects: [
@@ -232,6 +250,14 @@ const config = {
           {
             from: "/changelog/pointron/new",
             to: "/changelog/pointron/2025/Q2/v0.82.6",
+          },
+          {
+            from: "/changelog/nucleus/new",
+            to: "/changelog/nucleus/2025/Q2/v0.1.0",
+          },
+          {
+            from: "/changelog/clipper/new",
+            to: "/changelog/clipper/2025/v0.57.2",
           },
         ],
       },
@@ -255,6 +281,10 @@ const config = {
           content = content.replace(
             /<!--POINTRON_START-->[\s\S]*?<!--POINTRON_END-->/g,
             app === "pointron" ? "$&" : ""
+          );
+          content = content.replace(
+            /<!--NUCLEUS_START-->[\s\S]*?<!--NUCLEUS_END-->/g,
+            app === "nucleus" ? "$&" : ""
           );
           content = content.replace(
             /<!--DEFAULT_START-->[\s\S]*?<!--DEFAULT_END-->/g,

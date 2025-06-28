@@ -7,19 +7,13 @@ Well, techies like to perform actions with a single command while not very geeky
 
 1. Default
 
-2. Keyboard centric
+2. Command only
 
-3. Command only
-
-4. Agent mode (Will be available from v0.60+)
+3. Agent mode (coming soon...)
 
 ### Default
 
 Default mode tries to blend all the modes of interaction while still maintaining a serenity on the user interface. Use this mode if you prefer visual way of interaction and doesn’t mind using your mouse or trackpad to navigate your way around.
-
-### Keyboard centric
-
-If you are someone who prefers to use keyboard more, this is the mode for you. While shortcuts also works in default mode, we added additional settings in this mode to maximize keyboard usage.
 
 ### Command only
 
@@ -29,4 +23,4 @@ Command only is taking keyboard centric interaction to next level. All that verb
 
 We are in 21st century and we already have early AGI taking rides. Agent mode is command only mode but performing multiple actions at once with simple commands. We want to use this mode as much as you look forward to it. We will be releasing this mode of interaction in our upcoming release.
 
-*Updated on February 26, 2025*
+*Updated on June 28, 2025*

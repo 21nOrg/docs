@@ -15,6 +15,15 @@ export const docs = {
       "features/collections/play-modes",
     ],
   },
+  nodes: {
+    type: "category",
+    label: "Nodes",
+    link: {
+      type: "doc",
+      id: "features/nodes",
+    },
+    items: ["features/nodes/markdown"],
+  },
   customization: {
     type: "category",
     label: "Customization",
