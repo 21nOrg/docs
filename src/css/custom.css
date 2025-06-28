@@ -18,6 +18,7 @@
   --ifm-heading-font-family: 'Sen', 'Space Grotesk', system-ui, -apple-system, Hanken Grotesk, sans-serif;
   --doc-sidebar-width: 300px !important;
   --sidebar-item-active-background-color: #eaf2ff;
+  --ifm-hr-background-color: #ebebeb;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -31,6 +32,7 @@
   --ifm-color-primary-lightest: #a9baf2;
   --ifm-background-color: #1a1b1e;
   --sidebar-item-active-background-color: #171f3f;
+  --ifm-hr-background-color: #454545;
 }
 
 

@@ -112,5 +112,5 @@ You can check the almost full list of browsers [here](https://github.com/nerdysl
 
 ---
 
-*Updated on January 23, 2025, 3:17 PM UTC*
+*Updated on June 28, 2025*
 
