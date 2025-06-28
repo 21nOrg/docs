@@ -21,3 +21,6 @@ This is our public roadmap of all features and sub features that we will be buil
 - Event syncing - existing calendars
 - Time blocking and backlog
 
+---
+
+*Updated on June 28, 2025*

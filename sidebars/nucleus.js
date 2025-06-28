@@ -19,15 +19,6 @@ const sidebars = {
       id: "nucleus/quickstart",
     },
     {
-      type: "category",
-      label: "Installation",
-      link: {
-        type: "doc",
-        id: "nucleus/installation",
-      },
-      items: ["nucleus/preview-apps"],
-    },
-    {
       type: "html",
       value: "Product deep dive",
       className: "sidebar-section",
