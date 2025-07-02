@@ -13,6 +13,10 @@ function resolveApp() {
   return app.toLowerCase();
 }
 
+function isBlogOnlyMode() {
+  return process.env.BLOG_ONLY === "true";
+}
+
 function getSidebarPath() {
   const app = resolveApp();
   return require.resolve(`./sidebars/${app}.js`);
@@ -28,7 +32,31 @@ function resolveAppUrl() {
   return `https://${app}.app`;
 }
 
+function getEditUrl() {
+  return "https://github.com/21nOrg/nucleus.docs/tree/main/";
+}
+
 function resolveNavBarItems() {
+  if (isBlogOnlyMode()) {
+    return [
+      {
+        href: "https://21n.org",
+        label: "21n.org",
+        position: "right",
+      },
+      {
+        href: "https://discord.com/invite/9HJqKYTZKg",
+        label: "Join our Discord",
+        position: "right",
+      },
+      {
+        href: "https://21native.substack.com/",
+        label: "Subscribe",
+        position: "right",
+      },
+    ];
+  }
+
   const pagesStr = process.env.PAGES || "docs,faqs,roadmap,changelog";
   const pages = pagesStr.split(",");
   const app = resolveApp();
@@ -89,6 +117,12 @@ function resolveNavBarItems() {
     });
   }
 
+  items.push({
+    to: "/blog",
+    label: "Blog",
+    position: "left",
+  });
+
   return [
     ...items,
     {
@@ -123,13 +157,31 @@ const titleConfig = {
       dark: "img/pointron-dark.png",
     },
   },
-  default: {
+  nucleus: {
     title: "Nucleus",
     tagline: "Your digital harmony",
     favicon: "img/nucleus.ico",
     logo: {
       light: "img/nucleus-light.png",
       dark: "img/nucleus-dark.png",
+    },
+  },
+  nativeblog: {
+    title: "21n blog",
+    tagline: "21st century native",
+    favicon: "img/21n.ico",
+    logo: {
+      light: "img/21n-blog-light.png",
+      dark: "img/21n-blog-dark.png",
+    },
+  },
+  default: {
+    title: "21n",
+    tagline: "21st century native",
+    favicon: "img/21n.ico",
+    logo: {
+      light: "img/21n-light.png",
+      dark: "img/21n-dark.png",
     },
   },
 };
@@ -164,11 +216,32 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: getSidebarPath(),
-          routeBasePath: "/",
+        ...(isBlogOnlyMode()
+          ? {}
+          : {
+              docs: {
+                sidebarPath: getSidebarPath(),
+                routeBasePath: "/",
+                editUrl: getEditUrl(),
+              },
+            }),
+        blog: {
+          showReadingTime: true,
+          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
+            defaultReadingTime({ content, options: { wordsPerMinute: 200 } }),
+          // editUrl: getEditUrl(),
+          routeBasePath: isBlogOnlyMode() ? "/" : "/blog",
+          blogTitle: "21n blog",
+          blogDescription: "Latest updates and insights from 21n",
+          postsPerPage: 10,
+          blogSidebarTitle: "Recent posts",
+          blogSidebarCount: "ALL",
+          authorsMapPath: "authors.yml",
+          blogListComponent: "@site/src/components/CustomBlogListPage",
+          blogAuthorsPostsComponent:
+            "@site/src/components/CustomAuthorPostsPage",
+          blogTagsPostsComponent: "@site/src/components/CustomTagPostsPage",
         },
-        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -177,136 +250,144 @@ const config = {
   ],
 
   plugins: [
-    [
-      require.resolve("docusaurus-lunr-search"),
-      {
-        languages: ["en", "de"], // Add more if needed
-        highlightResult: true, // Highlight searched words
-        maxHits: 10, // Increase number of search results
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "api",
-        path: "api",
-        routeBasePath: "api",
-        sidebarPath: require.resolve("./sidebars/api.js"),
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "guides",
-        path: "guides",
-        routeBasePath: "guides",
-        sidebarPath: require.resolve("./sidebars/guides.js"),
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "memotronChangelog",
-        path: "changelog/memotron",
-        routeBasePath: "changelog/memotron",
-        sidebarPath: require.resolve("./sidebars/memotron-changelog.js"),
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "pointronChangelog",
-        path: "changelog/pointron",
-        routeBasePath: "changelog/pointron",
-        sidebarPath: require.resolve("./sidebars/pointron-changelog.js"),
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "nucleusChangelog",
-        path: "changelog/nucleus",
-        routeBasePath: "changelog/nucleus",
-        sidebarPath: require.resolve("./sidebars/nucleus-changelog.js"),
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "clipperChangelog",
-        path: "changelog/clipper",
-        routeBasePath: "changelog/clipper",
-        sidebarPath: require.resolve("./sidebars/clipper-changelog.js"),
-      },
-    ],
-    [
-      "@docusaurus/plugin-client-redirects",
-      {
-        redirects: [
-          {
-            from: "/changelog/memotron/new",
-            to: "/changelog/memotron/2025/Q2/v0.59.5",
-          },
-          {
-            from: "/changelog/pointron/new",
-            to: "/changelog/pointron/2025/Q2/v0.82.6",
-          },
-          {
-            from: "/changelog/nucleus/new",
-            to: "/changelog/nucleus/2025/Q2/v0.1.0",
-          },
-          {
-            from: "/changelog/clipper/new",
-            to: "/changelog/clipper/2025/v0.57.2",
-          },
-        ],
-      },
-    ],
-    function (context, options) {
-      return {
-        name: "process-conditional-content",
-        async loadContent() {
-          if (process.env.NODE_ENV !== "production") {
-            return;
-          }
-          const fs = require("fs");
-          const path = require("path");
-          const app = process.env.APP_NAME || "default";
-          const filePath = path.join(__dirname, "docs/intro.md");
-          let content = fs.readFileSync(filePath, "utf8");
-          content = content.replace(
-            /<!--MEMOTRON_START-->[\s\S]*?<!--MEMOTRON_END-->/g,
-            app === "memotron" ? "$&" : ""
-          );
-          content = content.replace(
-            /<!--POINTRON_START-->[\s\S]*?<!--POINTRON_END-->/g,
-            app === "pointron" ? "$&" : ""
-          );
-          content = content.replace(
-            /<!--NUCLEUS_START-->[\s\S]*?<!--NUCLEUS_END-->/g,
-            app === "nucleus" ? "$&" : ""
-          );
-          content = content.replace(
-            /<!--DEFAULT_START-->[\s\S]*?<!--DEFAULT_END-->/g,
-            app === "default" ? "$&" : ""
-          );
+    ...(isBlogOnlyMode()
+      ? []
+      : [
+          [
+            require.resolve("docusaurus-lunr-search"),
+            {
+              languages: ["en", "de"],
+              highlightResult: true,
+              maxHits: 10,
+            },
+          ],
+          [
+            "@docusaurus/plugin-content-docs",
+            {
+              id: "api",
+              path: "api",
+              routeBasePath: "api",
+              sidebarPath: require.resolve("./sidebars/api.js"),
+              editUrl: getEditUrl(),
+            },
+          ],
+          [
+            "@docusaurus/plugin-content-docs",
+            {
+              id: "guides",
+              path: "guides",
+              routeBasePath: "guides",
+              sidebarPath: require.resolve("./sidebars/guides.js"),
+              editUrl: getEditUrl(),
+            },
+          ],
+          [
+            "@docusaurus/plugin-content-docs",
+            {
+              id: "memotronChangelog",
+              path: "changelog/memotron",
+              routeBasePath: "changelog/memotron",
+              sidebarPath: require.resolve("./sidebars/memotron-changelog.js"),
+            },
+          ],
+          [
+            "@docusaurus/plugin-content-docs",
+            {
+              id: "pointronChangelog",
+              path: "changelog/pointron",
+              routeBasePath: "changelog/pointron",
+              sidebarPath: require.resolve("./sidebars/pointron-changelog.js"),
+            },
+          ],
+          [
+            "@docusaurus/plugin-content-docs",
+            {
+              id: "nucleusChangelog",
+              path: "changelog/nucleus",
+              routeBasePath: "changelog/nucleus",
+              sidebarPath: require.resolve("./sidebars/nucleus-changelog.js"),
+            },
+          ],
+          [
+            "@docusaurus/plugin-content-docs",
+            {
+              id: "clipperChangelog",
+              path: "changelog/clipper",
+              routeBasePath: "changelog/clipper",
+              sidebarPath: require.resolve("./sidebars/clipper-changelog.js"),
+            },
+          ],
+          [
+            "@docusaurus/plugin-client-redirects",
+            {
+              redirects: [
+                {
+                  from: "/changelog/memotron/new",
+                  to: "/changelog/memotron/2025/Q2/v0.59.5",
+                },
+                {
+                  from: "/changelog/pointron/new",
+                  to: "/changelog/pointron/2025/Q2/v0.82.6",
+                },
+                {
+                  from: "/changelog/nucleus/new",
+                  to: "/changelog/nucleus/2025/Q2/v0.1.0",
+                },
+                {
+                  from: "/changelog/clipper/new",
+                  to: "/changelog/clipper/2025/v0.57.2",
+                },
+              ],
+            },
+          ],
+          function (context, options) {
+            return {
+              name: "process-conditional-content",
+              async loadContent() {
+                if (process.env.NODE_ENV !== "production") {
+                  return;
+                }
+                const fs = require("fs");
+                const path = require("path");
+                const app = process.env.APP_NAME || "default";
+                const filePath = path.join(__dirname, "docs/intro.md");
+                let content = fs.readFileSync(filePath, "utf8");
+                content = content.replace(
+                  /<!--MEMOTRON_START-->[\s\S]*?<!--MEMOTRON_END-->/g,
+                  app === "memotron" ? "$&" : ""
+                );
+                content = content.replace(
+                  /<!--POINTRON_START-->[\s\S]*?<!--POINTRON_END-->/g,
+                  app === "pointron" ? "$&" : ""
+                );
+                content = content.replace(
+                  /<!--NUCLEUS_START-->[\s\S]*?<!--NUCLEUS_END-->/g,
+                  app === "nucleus" ? "$&" : ""
+                );
+                content = content.replace(
+                  /<!--DEFAULT_START-->[\s\S]*?<!--DEFAULT_END-->/g,
+                  app === "default" ? "$&" : ""
+                );
 
-          content = content.replace(
-            /<!--[A-Z_]+_START-->|<!--[A-Z_]+_END-->/g,
-            ""
-          );
+                content = content.replace(
+                  /<!--[A-Z_]+_START-->|<!--[A-Z_]+_END-->/g,
+                  ""
+                );
 
-          fs.writeFileSync(filePath, content);
-        },
-        async postBuild() {
-          if (process.env.NODE_ENV === "production") {
-            const path = require("path");
-            const filePath = path.join(__dirname, "docs/intro.md");
-            require("child_process").execSync("git checkout -- " + filePath);
-          }
-        },
-      };
-    },
+                fs.writeFileSync(filePath, content);
+              },
+              async postBuild() {
+                if (process.env.NODE_ENV === "production") {
+                  const path = require("path");
+                  const filePath = path.join(__dirname, "docs/intro.md");
+                  require("child_process").execSync(
+                    "git checkout -- " + filePath
+                  );
+                }
+              },
+            };
+          },
+        ]),
   ],
 
   // Custom fields to store runtime data
