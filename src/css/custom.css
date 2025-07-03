@@ -514,11 +514,6 @@ color: var(--ifm-color-emphasis) !important;
 
 [data-theme='dark'] .custom-blog-list-container article {
   background: var(--ifm-background-color-secondary);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-[data-theme='dark'] .custom-blog-list-container article:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 .custom-blog-list-container article h2 {
