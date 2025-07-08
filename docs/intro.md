@@ -13,7 +13,7 @@ toc_max_heading_level: 3         # Maximum heading level shown in TOC
 # SEO
 description: "Page description"   # Meta description for SEO
 keywords: [keywords, for, seo]    # Meta keywords for SEO
-image: img/myimage.png           # Social card images
+image: https://cdn.21n.co/21n/ogDefault.png            # Social card images
 
 # Navigation
 pagination_label: Custom label    # Used in prev/next navigation

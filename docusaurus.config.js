@@ -465,14 +465,14 @@ const config = {
       tagName: "meta",
       attributes: {
         property: "og:image",
-        content: `${cdnUrl}/${resolveApp()}/og-default.png`,
+        content: `${cdnUrl}/${resolveApp()}/ogDefault.png`,
       },
     },
     {
       tagName: "meta",
       attributes: {
         name: "twitter:image",
-        content: `${cdnUrl}/${resolveApp()}/og-default.png`,
+        content: `${cdnUrl}/${resolveApp()}/ogDefault.png`,
       },
     },
   ],
