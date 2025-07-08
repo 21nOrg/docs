@@ -139,6 +139,7 @@ const sidebars = {
         "memotron/switch-from-other-tools/notion",
         "memotron/switch-from-other-tools/obsidian",
         "memotron/switch-from-other-tools/capacities",
+        "memotron/switch-from-other-tools/pocket",
       ],
     },
     "memotron/best-practices",
