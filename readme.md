@@ -1,41 +1,21 @@
-# Website
+<div align="center">
+  <h1>Nucleus docs</h1>
+  <p>This is the central docs repository for all products built by 21n</p>
+</div>
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+<div align="center">
 
-### Installation
+![](https://api.checklyhq.com/v1/badges/checks/1b0d050f-2c69-48d4-8a08-9a235beec7f6?style=flat&theme=default)
+[![](https://img.shields.io/discord/831815510563749889?logo=discord&amp;logoColor=white)](https://discord.com/invite/9HJqKYTZKg)
 
-```
-$ yarn
-```
+</div>
 
-### Local Development
+### Docs sites powered by this repo
+1. [Memotron docs](https://docs.memotron.app)
+2. [Pointron docs](https://docs.pointron.app)
+3. [Nuclues docs](https://docs.nucleus.to)
+4. [21n blog](https://blog.21n.org)
 
-```
-$ yarn start
-```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This site is powered by [Docusaurus](https://docusaurus.io/).
+For any questions or feedback, please contact us at [hello@21n.org](mailto:hello@21n.org).

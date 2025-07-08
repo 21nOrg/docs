@@ -47,15 +47,7 @@ const sidebars = {
         id: "memotron/features",
       },
       items: [
-        {
-          type: "category",
-          label: "Nodes",
-          link: {
-            type: "doc",
-            id: "features/nodes",
-          },
-          items: ["features/nodes/markdown"],
-        },
+        docs.nodes,
         docs.collections,
         "features/combinations",
         "memotron/features/relations",
@@ -147,6 +139,7 @@ const sidebars = {
         "memotron/switch-from-other-tools/notion",
         "memotron/switch-from-other-tools/obsidian",
         "memotron/switch-from-other-tools/capacities",
+        "memotron/switch-from-other-tools/pocket",
       ],
     },
     "memotron/best-practices",

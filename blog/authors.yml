@@ -1,23 +1,33 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+ar:
+  name: Aravind S
+  title: Founder, 21n
+  url: https://github.com/thyaravind
+  image_url: https://github.com/thyaravind.png
+  email: aravind@21n.org
   page: true
+  description: >
+    Founder of 21n, building tools for digital wellbeing and productivity.
   socials:
-    x: yangshunz
-    github: yangshun
+    x: 21nfellow
+    github: thyaravind
+    website: https://arav.ink
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+sai:
+  name: Saikiran Rudra
+  title: Design
+  url: https://bento.me/saikiranrudra
+  image_url: https://creatorspace.imgix.net/users/cljzvbp6j076yp101htzje0vc/fnVuVjn5LB3sTLYK-IMG_2087.heic?w=300&h=300
+  email: sai@21n.org
   page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: '/all-from-saikiran'
+  description: >
+    Design lead focused on creating intuitive user experiences. Believes in the power of thoughtful design to solve complex problems.
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: rsaikiran252
+    linkedin: saikiran-rudra-15349b131
+    github: rsaikiran252
+    website: https://bento.me/saikiranrudra
+
+sadhana:
+  name: Dr. Sadhana
+  title: Advisor
