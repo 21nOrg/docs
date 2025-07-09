@@ -8,6 +8,11 @@ principles:
   permalink: /principles
   description: All about our core principles
 
+announcement:
+  label: Announcement
+  permalink: /announcement
+  description: All announcements from 21n
+
 launch:
   label: Launch
   permalink: /launch
@@ -17,6 +22,11 @@ thoughts:
   label: Thoughts
   permalink: /thoughts
   description: All about our thoughts and ideas
+
+paper:
+  label: Paper
+  permalink: /paper
+  description: Papers published at 21n
 
 memotron:
   label: Memotron
