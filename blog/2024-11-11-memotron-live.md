@@ -2,7 +2,7 @@
 slug: memotron-live
 title: Memotron is live!
 authors: sai
-tags: [memotron, launch]
+tags: [memotron, launch, announcement]
 ---
 
 Hello community!! After several months of crafting Memotron... we are all set to revolutionize how we manage our digital memory 🔥
