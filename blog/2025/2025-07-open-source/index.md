@@ -34,7 +34,7 @@ About a year ago, we experimented with what we called **Coop source**—a licens
 
 **Addressing malicious use**: We were concerned about bad actors using our tools for harmful purposes, particularly in cybersecurity applications. A membership-based model backed by block-chain access trials seemed like it could provide a mechanism to prevent abuse while maintaining collaborative development.
 
-**Preventing abuse**: Despite the emergence of protective licenses, we still witnessed instances where bad actors would clone open source software and commercially resell it for profit. Or take the examples of large corporations which has taken advantage of open-source projects while contributing back almost nothing.  Coop source offered higher barriers to such exploitation through membership prerequisites and commercial resale prohibitions.
+**Preventing abuse**: Despite the emergence of protective licenses, we still noticed instances where bad actors would clone open source software and commercially resell it for profit. Or take the [examples](https://www.perplexity.ai/page/open-source-exploitation-a-com-CqIAlawlT7OymxP0L0_X5A) of large corporations which has taken advantage of open-source projects while contributing back almost nothing.  Coop source offered higher barriers to such exploitation through membership prerequisites and commercial resale prohibitions.
 
 **Scoping the maintenance burden**: As open source projects grow popular, maintaining them can become overwhelming. Managing contributions, reviewing code, and handling diverse community opinions requires significant diplomatic effort. We thought limiting contributors to active coop members might create a more manageable, focused community.
 
