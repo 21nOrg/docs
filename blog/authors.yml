@@ -1,3 +1,17 @@
+team:
+  name: Team 21n
+  title: From all of us at 21n
+  url: https://github.com/21nOrg
+  image_url: https://github.com/21nOrg.png
+  email: hello@21n.org
+  page: true
+  description: >
+    Building impressive products!
+  socials:
+    x: 21nOrg
+    github: 21nOrg
+    website: https://21n.org
+
 ar:
   name: Aravind S
   title: Founder, 21n
