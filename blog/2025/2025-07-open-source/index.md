@@ -44,7 +44,7 @@ About a year ago, we experimented with what we called **Coop source**—a licens
 However, our coop source experiment revealed some fundamental limitations:
 
 **Lack of platform infrastructure & resources**
-- Perhaps most critically, there are no platforms like GitHub that are built to implement coop source code sharing and collaboration at scale. The entire development ecosystem—from version control hosting to CI/CD pipelines to package distribution—is designed around either fully open or fully private models. This infrastructural gap made it practically impossible to achieve the collaboration and transparency we wanted with our core principles while maintaining coop source restrictions.
+- Perhaps most critically, there are no platforms like GitHub that are built to implement coop source code sharing and collaboration at scale. The entire development ecosystem is designed around either fully open or fully private models. This infrastructural gap made it practically impossible to achieve the collaboration and transparency we wanted with our core principles while maintaining coop source restrictions.
 - Given a 3 person team that we are, it is extremely time-consuming for us to implement access control, block-chain based access trials and other mechanisms even if some kind of partial infrastructure exists.
 
 **Impracticality of access control implementation in the age of Agentic AI** 
@@ -57,3 +57,9 @@ Both preventing abusive use and enabling incentives within our SOFT-based organi
 Our return to open source is driven by its natural alignment with our SOFT framework principles and the realization that protecting source code provides little value in today's AI-driven landscape. Open source enables the kind of transparent, collaborative development we've always envisioned, while providing practical benefits like increased visibility and sustainability options through platforms like Open Collective.
 
 As we open our repositories, we invite the global community to join us in building technology that prioritizes human well-being and planetary sustainability over profit maximization. Together, we can create more impactful solutions through diverse perspectives and shared innovation.
+
+<div>
+  <a href="https://github.com/21nOrg" target="_blank">
+    Visit our GitHub repositories →
+  </a>
+</div>
