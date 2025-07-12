@@ -9,7 +9,7 @@
     {
       "label": "Build",
       "type": "shell",
-      "command": "npm run build"
+      "command": "npm run build && npm run serve"
     }
   ]
 }
