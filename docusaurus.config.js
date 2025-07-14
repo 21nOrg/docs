@@ -328,11 +328,11 @@ const config = {
                 },
                 {
                   from: "/changelog/pointron/new",
-                  to: "/changelog/pointron/2025/Q2/v0.82.6",
+                  to: "/changelog/pointron/2025/Q3/v0.82.7",
                 },
                 {
                   from: "/changelog/nucleus/new",
-                  to: "/changelog/nucleus/2025/Q2/v0.1.0",
+                  to: "/changelog/nucleus/2025/Q3/v0.2.0",
                 },
                 {
                   from: "/changelog/clipper/new",

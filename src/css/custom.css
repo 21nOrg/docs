@@ -229,9 +229,13 @@ summary::after {
 
 
 .menu {
-  padding: 16px !important;
+  padding: 0 !important;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.theme-doc-sidebar-item-link-level-1,  .theme-doc-sidebar-item-category-level-1 {
+padding: 0 16px 0 16px;
 }
 
 .sidebar-section {
@@ -240,6 +244,22 @@ summary::after {
   margin-bottom: 3px;
   margin-left: 10px
 }
+
+.sidebar-section-first-item {
+  margin-top: 10px !important;
+}
+
+.sidebar-title {
+  font-weight: 400;
+  color: var(--ifm-color-content-secondary);
+  margin-bottom: 20px;
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  text-align: center;
+  font-size: 1rem;
+}
+
 
 /* Sidebar menu item collapse button styling */
 .menu__caret:before,

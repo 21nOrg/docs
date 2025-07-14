@@ -7,7 +7,7 @@ This is our public roadmap of all features and sub features that we will be buil
 ## Up next
 
 ### v0.82.x
-> June 2025
+> July 2025
 - Reliability and performance improvements
 - Other small improvements and bug fixes
 
@@ -64,4 +64,4 @@ This is our public roadmap of all features and sub features that we will be buil
 - VisionOS app
 
 ---
-*Updated on April 19, 2025*
+*Updated on July 12, 2025*
