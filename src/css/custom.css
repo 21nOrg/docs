@@ -229,9 +229,13 @@ summary::after {
 
 
 .menu {
-  padding: 16px !important;
+  padding: 0 !important;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.theme-doc-sidebar-item-link-level-1,  .theme-doc-sidebar-item-category-level-1 {
+padding: 0 16px 0 16px;
 }
 
 .sidebar-section {
@@ -240,6 +244,22 @@ summary::after {
   margin-bottom: 3px;
   margin-left: 10px
 }
+
+.sidebar-section-first-item {
+  margin-top: 10px !important;
+}
+
+.sidebar-title {
+  font-weight: 400;
+  color: var(--ifm-color-content-secondary);
+  margin-bottom: 20px;
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  text-align: center;
+  font-size: 1rem;
+}
+
 
 /* Sidebar menu item collapse button styling */
 .menu__caret:before,
@@ -397,4 +417,174 @@ padding: 0.1rem 0.5rem;
 [data-theme='dark'] .alert--info {
   --ifm-alert-border-color: rgb(94, 94, 94);
   --ifm-alert-background-color: #1a1b1e;
+}
+
+/* ********** Blog styling ********** */
+
+/* Author avatar in blog post header */
+.avatar__photo {
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 50%;
+  border: 2px solid var(--ifm-color-primary-lighter);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.avatar__photo:hover {
+  transform: scale(1.05);
+  border-color: var(--ifm-color-primary);
+}
+
+/* Author info container */
+.avatar {
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Author name styling */
+.avatar__name {
+  font-weight: 200;
+}
+.avatar__name a {
+  color: var(--ifm-color-emphasis-800);
+}
+
+/* Author title/subtitle */
+.avatar__subtitle {
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-600);
+  font-weight: 400;
+}
+
+/* Multiple authors container */
+.margin-bottom--sm .avatar {
+  margin-bottom: 0.5rem;
+}
+
+/* Author page avatar (larger) */
+.avatar--vertical .avatar__photo {
+  width: 80px !important;
+  height: 80px !important;
+  margin-bottom: 1rem;
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] .avatar__name {
+  color: var(--ifm-color-emphasis-800);
+}
+
+[data-theme='dark'] .avatar__subtitle {
+  color: var(--ifm-color-emphasis-600);
+}
+
+
+/* Custom author bio styling */
+.blog-author-bio {
+  background: var(--ifm-color-emphasis-100);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .blog-author-bio {
+  background: var(--ifm-color-emphasis-200);
+}
+
+article h2 {
+  font-size: 2rem !important;
+}
+
+h2 a {
+color: var(--ifm-color-emphasis) !important;
+}
+
+/* Hide author socials everywhere except on author profile pages */
+.avatar__intro .authorSocials_rSDt {
+  display: none !important;
+}
+
+/* Show author socials only on author profile pages */
+.blog-authors-posts-page .avatar__intro .authorSocials_rSDt,
+.blog-authors-list-page .avatar__intro .authorSocials_rSDt {
+  display: flex !important;
+}
+
+
+
+/* ********** Custom Blog List Styles ********** */
+.custom-blog-list-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.custom-blog-list-container article {
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: var(--ifm-background-color);
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.custom-blog-list-container article:hover {
+  transform: translateX(-1px);
+  border: 1px solid var(--ifm-toc-border-color);
+}
+
+[data-theme='dark'] .custom-blog-list-container article {
+  background: var(--ifm-background-color-secondary);
+}
+
+.custom-blog-list-container article h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.custom-blog-list-container article h2 a {
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.custom-blog-list-container article h2 a:hover {
+  color: var(--ifm-color-primary);
+}
+
+.custom-blog-list-container .blog-meta {
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.custom-blog-list-container .blog-meta time {
+  font-weight: 500;
+}
+
+.custom-blog-list-container .blog-description {
+  color: var(--ifm-color-content);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.custom-blog-list-container .blog-read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.custom-blog-list-container .blog-read-more:hover {
+  transform: translateX(2px);
+  text-decoration: none;
 }

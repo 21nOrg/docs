@@ -8,18 +8,15 @@ This is our public roadmap of all features and sub features that we will be buil
 
 ## Up next
 
-### v0.60.0
-> June 2025
+### v0.61.0
+> July 2025
 
-* Audio transcription improvements using Local AI (huge performance improvements)
-* App performance improvements
 * Search improvements
 * PDF improvements, PDF clips as first class nodes
 * Node custom preview image
 * iOS share
 * Markdown improvements
 * Reliability and performance improvements
-* Other small improvements and bug fixes
 
 
 ### Later
@@ -34,8 +31,6 @@ This is our public roadmap of all features and sub features that we will be buil
 > All features that are planned but not yet scheduled for a release.
 
 ### Node
-- iOS share
-- watchOS audio capture
 - Audio timestamping
 - Markdown - layout blocks
 - Sketch capture
@@ -141,4 +136,4 @@ This is our public roadmap of all features and sub features that we will be buil
     - More...
 
 ---
-*Updated on April 19, 2025*
+*Updated on July 12, 2025*
