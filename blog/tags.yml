@@ -1,19 +1,44 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+native-newsletter:
+  label: Native Newsletter
+  permalink: /native-newsletter
+  description: Our monthly newsletter with dense topics and deep insights
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+principles:
+  label: Principles
+  permalink: /principles
+  description: All about our core principles
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+announcement:
+  label: Announcement
+  permalink: /announcement
+  description: All announcements from 21n
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+launch:
+  label: Launch
+  permalink: /launch
+  description: All the new launches and updates from 21n
+
+thoughts:
+  label: Thoughts
+  permalink: /thoughts
+  description: All about our thoughts and ideas
+
+paper:
+  label: Paper
+  permalink: /paper
+  description: Papers published at 21n
+
+memotron:
+  label: Memotron
+  permalink: /memotron
+  description: All about Memotron - your memory atlas
+
+pointron:
+  label: Pointron
+  permalink: /pointron
+  description: All about Pointron - your focus haven
+
+nucleus:
+  label: Nucleus
+  permalink: /nucleus
+  description: All about Nucleus - your digital harmony

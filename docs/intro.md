@@ -13,7 +13,7 @@ toc_max_heading_level: 3         # Maximum heading level shown in TOC
 # SEO
 description: "Page description"   # Meta description for SEO
 keywords: [keywords, for, seo]    # Meta keywords for SEO
-image: img/myimage.png           # Social card images
+image: https://cdn.21n.co/21n/ogDefault.png            # Social card images
 
 # Navigation
 pagination_label: Custom label    # Used in prev/next navigation
@@ -31,6 +31,8 @@ last_update:                      # Last update date info
 # Tags (for blog posts)
 # tags: [tag1, tag2]
 ---
+
+
 
 <!--MEMOTRON_START-->
 # Introduction
@@ -124,6 +126,13 @@ In today's fast-paced world, staying focused and productive can feel like an uph
 Ready to transform the way you work? Dive into our [Quick start guide](/pointron/quickstart) to begin your journey with Pointron.
 <!--POINTRON_END-->
 
+<!--NUCLEUS_START-->
+# Introduction
+
+Welcome to Nucleus! While we're working on improving our docs, please navigate to next sections to dive deep into concepts of Nucleus.
+
+<!--NUCLEUS_END-->
+
 <!--DEFAULT_START-->
 # Introduction
 
@@ -133,4 +142,4 @@ Welcome to our documentation
 <!--DEFAULT_END-->
 
 
-*Updated on February 26, 2025*
+*Updated on June 28, 2025*
