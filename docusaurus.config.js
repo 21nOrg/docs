@@ -324,15 +324,15 @@ const config = {
               redirects: [
                 {
                   from: "/changelog/memotron/new",
-                  to: "/changelog/memotron/2025/Q3/v0.60.0",
+                  to: "/changelog/memotron/2025/Q3/v0.61.0",
                 },
                 {
                   from: "/changelog/pointron/new",
-                  to: "/changelog/pointron/2025/Q3/v0.82.7",
+                  to: "/changelog/pointron/2025/Q3/v0.83.0",
                 },
                 {
                   from: "/changelog/nucleus/new",
-                  to: "/changelog/nucleus/2025/Q3/v0.2.0",
+                  to: "/changelog/nucleus/2025/Q3/v0.3.0",
                 },
                 {
                   from: "/changelog/clipper/new",
@@ -355,24 +355,24 @@ const config = {
                 let content = fs.readFileSync(filePath, "utf8");
                 content = content.replace(
                   /<!--MEMOTRON_START-->[\s\S]*?<!--MEMOTRON_END-->/g,
-                  app === "memotron" ? "$&" : ""
+                  app === "memotron" ? "$&" : "",
                 );
                 content = content.replace(
                   /<!--POINTRON_START-->[\s\S]*?<!--POINTRON_END-->/g,
-                  app === "pointron" ? "$&" : ""
+                  app === "pointron" ? "$&" : "",
                 );
                 content = content.replace(
                   /<!--NUCLEUS_START-->[\s\S]*?<!--NUCLEUS_END-->/g,
-                  app === "nucleus" ? "$&" : ""
+                  app === "nucleus" ? "$&" : "",
                 );
                 content = content.replace(
                   /<!--DEFAULT_START-->[\s\S]*?<!--DEFAULT_END-->/g,
-                  app === "default" ? "$&" : ""
+                  app === "default" ? "$&" : "",
                 );
 
                 content = content.replace(
                   /<!--[A-Z_]+_START-->|<!--[A-Z_]+_END-->/g,
-                  ""
+                  "",
                 );
 
                 fs.writeFileSync(filePath, content);
@@ -382,7 +382,7 @@ const config = {
                   const path = require("path");
                   const filePath = path.join(__dirname, "docs/intro.md");
                   require("child_process").execSync(
-                    "git checkout -- " + filePath
+                    "git checkout -- " + filePath,
                   );
                 }
               },
