@@ -7,7 +7,12 @@ module.exports = {
     },
     {
       type: "doc",
-      label: "💥 What's new (v0.2.0)",
+      label: "💥 What's new (v0.3.0)",
+      id: "2025/Q3/v0.3.0",
+    },
+    {
+      type: "doc",
+      label: "v0.2.0",
       id: "2025/Q3/v0.2.0",
     },
     "2025/Q2/v0.1.0",
