@@ -8,15 +8,14 @@ This is our public roadmap of all features and sub features that we will be buil
 
 ## Up next
 
-### v0.61.0
-> July 2025
+### v0.62.0
+> Sept 2025
 
-* Search improvements
 * PDF improvements, PDF clips as first class nodes
 * Node custom preview image
 * iOS share
+* Add from web
 * Markdown improvements
-* Reliability and performance improvements
 
 
 ### Later
@@ -57,15 +56,7 @@ This is our public roadmap of all features and sub features that we will be buil
 
 
 ### Clipping
-- AI Chats clipping
-- Socials
-    - Linkedin clipping
-        - Linkedin profile
-        - Linkedin post
-    - Instagram clipping
-        - IG Profile
-        - IG Post
-    - Reddit clipping
+- Plug your memory
 - General clipping
     - Spotify
         - Save a song
@@ -136,4 +127,4 @@ This is our public roadmap of all features and sub features that we will be buil
     - More...
 
 ---
-*Updated on July 12, 2025*
+*Updated on Aug 23, 2025*
