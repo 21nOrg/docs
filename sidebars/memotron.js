@@ -68,7 +68,7 @@ const sidebars = {
       },
       items: [
         "memotron/web-clipper/text-clipping",
-        "memotron/web-clipper/tweet-clipping",
+        "memotron/web-clipper/social-clipping",
         "memotron/web-clipper/kindle-sync",
       ],
     },
