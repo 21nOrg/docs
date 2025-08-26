@@ -51,8 +51,8 @@ function resolveNavBarItems() {
         position: "right",
       },
       {
-        href: "https://21native.substack.com/",
-        label: "Subscribe",
+        href: "/rss.xml",
+        label: "RSS feed",
         position: "right",
       },
     ];
