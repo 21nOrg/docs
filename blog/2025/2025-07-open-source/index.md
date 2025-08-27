@@ -1,19 +1,20 @@
 ---
 slug: open-source
-title: Going [back to] open source
+title: Going (back to) open source
 authors: team
 tags: [announcement, principles]
 date: 2025-07-09
 description: >
-  We are going [back to] open source! Read through our journey of open source.
+  We are going (back to) open source! Read through our journey of open source.
 image: https://cdn.21n.co/21n/blog/2025/openSource.png
 ---
+<div>
+  <img class="rounded-md" src="https://cdn.21n.co/21n/blog/2025/openSource.png" width="100%" alt="Going open source" />
+</div>
+
 
 Open-source, transparency and community powered product building are our core principles from the [get-go](https://papers.21n.org/soft). An year ago, we made our repositories private in favor of **Coop source** - an idea which we wanted to explore to address certain shortcomings of the open source model. In this article we will discuss our journey of open source.
 
-<div>
-  <img src="https://cdn.21n.co/21n/blog/2025/openSource.png" width="100%" alt="Going open source" />
-</div>
 
 
 ## Open source at the core
@@ -47,7 +48,7 @@ However, our coop source experiment revealed some fundamental limitations:
 - Perhaps most critically, there are no platforms like GitHub that are built to implement coop source code sharing and collaboration at scale. The entire development ecosystem is designed around either fully open or fully private models. This infrastructural gap made it practically impossible to achieve the collaboration and transparency we wanted with our core principles while maintaining coop source restrictions.
 - Given a 3 person team that we are, it is extremely time-consuming for us to implement access control, block-chain based access trials and other mechanisms even if some kind of partial infrastructure exists.
 
-**Impracticality of access control implementation in the age of Agentic AI** 
+**Impracticality of access control implementation in the age of Agentic AI**
 
 Both preventing abusive use and enabling incentives within our SOFT-based organization became impractical given the rise of agentic coding. Deep cloning became trivial—anyone can recreate applications from screenshots in minutes, making source code protection largely irrelevant as we move towards a world where AI is the primary driver of software development.
 

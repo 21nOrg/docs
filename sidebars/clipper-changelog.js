@@ -1,10 +1,16 @@
 module.exports = {
   clipperChangelogSidebar: [
     {
-      type: "doc",
-      label: "💥 What's new (v0.57.2)",
-      id: "2025/v0.57.2",
+      type: "html",
+      value: "Clipper changelog",
+      className: "sidebar-title",
     },
+    {
+      type: "doc",
+      label: "💥 What's new (v0.58.0)",
+      id: "2025/v0.58.0",
+    },
+    "2025/v0.57.2",
     "2025/v0.57.1",
     "2025/v0.57.0",
     "2025/v0.56.5",

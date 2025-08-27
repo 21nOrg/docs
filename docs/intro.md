@@ -35,6 +35,8 @@ last_update:                      # Last update date info
 
 
 <!--MEMOTRON_START-->
+
+![](https://cdn.21n.co/memotron/ogImage.png)
 # Introduction
 
 Thanks a lot for choosing Memotron - our thoughtfully crafted tool for your memory and thinking assistance 🙏 🎉 .
@@ -108,6 +110,7 @@ Welcome to a new era of thinking, creating, and growing. Welcome to Memotron.
 
 
 <!--POINTRON_START-->
+![](https://cdn.21n.co/pointron/ogImage.png)
 # Introduction
 
 Welcome to Pointron - your focus haven for productive work 🎯 ✨
@@ -127,6 +130,7 @@ Ready to transform the way you work? Dive into our [Quick start guide](/pointron
 <!--POINTRON_END-->
 
 <!--NUCLEUS_START-->
+![](https://cdn.21n.co/nucleus/screensBanner.png)
 # Introduction
 
 Welcome to Nucleus! While we're working on improving our docs, please navigate to next sections to dive deep into concepts of Nucleus.

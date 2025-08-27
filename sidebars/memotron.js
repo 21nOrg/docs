@@ -68,7 +68,7 @@ const sidebars = {
       },
       items: [
         "memotron/web-clipper/text-clipping",
-        "memotron/web-clipper/tweet-clipping",
+        "memotron/web-clipper/social-clipping",
         "memotron/web-clipper/kindle-sync",
       ],
     },
@@ -85,44 +85,44 @@ const sidebars = {
         "memotron/anti-productivity/round-trip-capture",
       ],
     },
-    // {
-    //   type: "html",
-    //   value: "Use cases",
-    //   className: "sidebar-section",
-    // },
-    // "memotron/use-cases/learning",
-    // "memotron/use-cases/research",
-    // "memotron/use-cases/journaling",
-    // "memotron/use-cases/pkm",
-    // {
-    //   type: "category",
-    //   label: "By profession",
-    //   link: {
-    //     type: "doc",
-    //     id: "memotron/use-cases/by-profession",
-    //   },
-    //   items: [
-    //     "memotron/use-cases/by-profession/student",
-    //     "memotron/use-cases/by-profession/writer",
-    //     "memotron/use-cases/by-profession/founder",
-    //     "memotron/use-cases/by-profession/designer",
-    //     "memotron/use-cases/by-profession/executive",
-    //     "memotron/use-cases/by-profession/lawyer",
-    //   ],
-    // },
-    // {
-    //   type: "category",
-    //   label: "By method",
-    //   link: {
-    //     type: "doc",
-    //     id: "memotron/use-cases/by-method",
-    //   },
-    //   items: [
-    //     "memotron/use-cases/by-method/zettelkasten",
-    //     "memotron/use-cases/by-method/cornell",
-    //     "memotron/use-cases/by-method/outlining",
-    //   ],
-    // },
+    {
+      type: "html",
+      value: "Use cases",
+      className: "sidebar-section",
+    },
+    "memotron/use-cases/learning",
+    "memotron/use-cases/research",
+    "memotron/use-cases/journaling",
+    "memotron/use-cases/pkm",
+    {
+      type: "category",
+      label: "By profession",
+      link: {
+        type: "doc",
+        id: "memotron/use-cases/by-profession",
+      },
+      items: [
+        "memotron/use-cases/by-profession/student",
+        "memotron/use-cases/by-profession/writer",
+        "memotron/use-cases/by-profession/founder",
+        "memotron/use-cases/by-profession/designer",
+        "memotron/use-cases/by-profession/executive",
+        "memotron/use-cases/by-profession/lawyer",
+      ],
+    },
+    {
+      type: "category",
+      label: "By method",
+      link: {
+        type: "doc",
+        id: "memotron/use-cases/by-method",
+      },
+      items: [
+        "memotron/use-cases/by-method/zettelkasten",
+        "memotron/use-cases/by-method/cornell",
+        "memotron/use-cases/by-method/outlining",
+      ],
+    },
     {
       type: "html",
       value: "More",

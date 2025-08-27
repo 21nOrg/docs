@@ -51,8 +51,8 @@ function resolveNavBarItems() {
         position: "right",
       },
       {
-        href: "https://21native.substack.com/",
-        label: "Subscribe",
+        href: "/rss.xml",
+        label: "RSS feed",
         position: "right",
       },
     ];
@@ -324,19 +324,19 @@ const config = {
               redirects: [
                 {
                   from: "/changelog/memotron/new",
-                  to: "/changelog/memotron/2025/Q3/v0.60.0",
+                  to: "/changelog/memotron/2025/Q3/v0.61.2",
                 },
                 {
                   from: "/changelog/pointron/new",
-                  to: "/changelog/pointron/2025/Q2/v0.82.6",
+                  to: "/changelog/pointron/2025/Q3/v0.83.0",
                 },
                 {
                   from: "/changelog/nucleus/new",
-                  to: "/changelog/nucleus/2025/Q2/v0.1.0",
+                  to: "/changelog/nucleus/2025/Q3/v0.3.1",
                 },
                 {
                   from: "/changelog/clipper/new",
-                  to: "/changelog/clipper/2025/v0.57.2",
+                  to: "/changelog/clipper/2025/v0.58.0",
                 },
               ],
             },

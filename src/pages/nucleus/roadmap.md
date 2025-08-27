@@ -8,13 +8,11 @@ This is our public roadmap of all features and sub features that we will be buil
 
 ## Up next
 
-### Combinations
-- Combinations module
-  - Side nav view
-  - Canvas view
+### v0.3.0
+- Side nav combination
 
 
-### Calendar and time blocking
+### Later
 - Calendar
   - Column view
   - Classic - heatmap layout
@@ -23,4 +21,4 @@ This is our public roadmap of all features and sub features that we will be buil
 
 ---
 
-*Updated on June 28, 2025*
+*Updated on July 12, 2025*
