@@ -2,10 +2,10 @@
 slug: wholesome
 title: The wholesome wheel chart
 authors: team
-tags: [thoughts]
+tags: [design]
 description: >
   All about the wholesome wheel chart.
-date: 2025-07-15
+date: 2025-08-30
 draft: true
 ---
 This is a simple guide to the wholesome wheel chart.
