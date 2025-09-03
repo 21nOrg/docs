@@ -19,7 +19,7 @@ At [Memotron](https://memotron.app), we've obsessed over making capture not just
 ## The iterations
 From the beginning, we aimed for seamless, frictionless capture. This focus shows in our earliest capture page designs on both mobile and desktop. Despite this, we knew our previous version could still be improved.
 
-### The Bottom Bar Challenge
+### The bottom bar challenge
 We placed the capture action in the bottom bar so users could access it from anywhere with a single tap. However, this created a dilemma: if we made the capture page the default when reopening the app, we added friction to other important features like search. If we didn't make capture the default, users needed an extra step to reach it from search or library pages.
 
 ![Old design flow](./old-design-flow.png)
@@ -31,7 +31,7 @@ How fast you might ask? Well, it now takes [**< 4 seconds**](https://www.youtube
 ![Latest design improvement](./new-design.png)
 
 
-## Beyond Text-First Capture
+## Beyond text-first capture
 Most digital memory apps default to text as the primary capture method. This works fine when you can type, but what about when you're driving, walking, or otherwise on the go?
 
 When creating Memotron, we decided to treat multiple forms of information as first-class citizens, equal to text or Markdown. These include:
@@ -60,12 +60,12 @@ The challenge grows when you want to link new information to existing pieces of 
 
 Our solution: direct linking and pinned collections.
 
-### Direct Linking
+### Direct linking
 Direct linking eliminates the need for Markdown backlinks to maintain relationships between information. Both the Memotron app and Clipper extension feature a simple link box where you can search for existing notes or collections and connect them with one click. You can even specify relationship types using [relation tags](https://docs.memotron.app/memotron/features/relations).
 
 This approach makes knowledge management systems like Zettelkasten much more fluid and natural.
 
-### Pinned Collections
+### Pinned collections
 For frequently used collections like daily journals or workout logs, even searching through the link box adds unnecessary friction. That's why we've added the ability to pin your most-used collections directly to the capture sheet, allowing instant capture when you need them.
 
 
