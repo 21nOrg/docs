@@ -144,6 +144,7 @@ const sidebars = {
     },
     "memotron/best-practices",
     "delete-account",
+    "humane-design",
     "offline-use",
     // "memotron/green-use",
     "credits-and-appreciation",
