@@ -32,12 +32,11 @@ last_update:                      # Last update date info
 # tags: [tag1, tag2]
 ---
 
-import CustomButton from '@site/src/components/CustomButton';
 import FeatureCards from '@site/src/components/FeatureCards';
 
 <!--MEMOTRON_START-->
 
-![](https://cdn.21n.co/memotron/ogImage.png)
+![Memotron og image](https://cdn.21n.co/memotron/ogImage.png)
 # Introduction
 > Memotron - our thoughtfully crafted tool for your memory and thinking assistance.
 
@@ -53,7 +52,7 @@ Memotron isn't just another digital organizer or a PKM tool. We consciously craf
 
 Memotron eliminates the need for you to constantly jump back and forth between different devices or applications. Say goodbye to shallow and siloed apps in favor of a wholesome experience. You can easily **replace 10+ apps and save ~ $100 a month** in subscription fees.
 
-![alt image](../src/images/memotron-docs/wholesome-mirror-3.png)
+![Comparison of chaos vs Memotron](../src/images/memotron-docs/wholesome-mirror-3.png)
 
 You can quickly compare Memotron with other apps [here](https://memotron.app/compare).
 
@@ -61,16 +60,16 @@ You can quickly compare Memotron with other apps [here](https://memotron.app/com
 ### Key features
 
 1. **Fastest capture ever built**: Don't take our word for it. See it for yourself [here](https://www.youtube.com/watch?v=7KHEG8QSv6w).
-2. **Web clipper extension**: We built the most robust web clipper extensiont that can...
-   1. Highlight text on web pages and retains the highlights when coming back to the web page.
-   2. Save information from web using screenshots.
-   3. Bookmark video timestamps, add notes on Youtube.
-   4. Save tweets, linkedin posts and other social media posts from every major social media platform. See list [here](memotron/web-clipper/social-clipping).
+2. **Web clipper extension**: We built a robust web clipper extension that can…
+   1. Highlight text on web pages and retain the highlights when coming back to the web page.
+   2. Capture content from the web using screenshots.
+   3. Bookmark video timestamps and add notes on YouTube.
+   4. Save Tweets, LinkedIn posts, and other social content from major platforms. See the list [here](/memotron/web-clipper/social-clipping).
    5. Sync Kindle books and highlights with a single click.
-   6. Plug your memory into AI chats and NotebookLM notebooks _(coming soon...)_
-3. **Link to curate**: Organization captured information was always the challenging and most time-consuming process in knowledge management. But, not with Memotron. Memotron's direct linking and [link to curate](memotron/core#link-to-curate) features makes organization indivisible from capture itself.
+   6. Plug your memory into AI chats and NotebookLM notebooks _(coming soon)_.
+3. **Link to curate**: Organization captured information was always the challenging and most time-consuming process in knowledge management. But, not with Memotron. Memotron's direct linking and [link to curate](/memotron/core#link-to-curate) features makes organization indivisible from capture itself.
 4. **Audio transcription, PDF highlighting and more**: Audio, PDF, web highlights etc are all first-class information in Memotron. This unlocks whole new possibilities of capturing and linking information.
-5. **Anti productivity**: Don't get trapped into the anti-productivity design patterns encouraged by most of the PKM tools. Read more [here](memotron/anti-productivity) on how we combat anti-productivity proactively.
+5. **Anti-productivity**: Don't get trapped into the anti-productivity design patterns encouraged by most of the PKM tools. Read more [here](/memotron/anti-productivity) on how we combat anti-productivity proactively.
 6. **Offline-first**: Memotron is a truly offline-first tool. You can use it without an internet connection and offline-only variant requires no cloud signup.
 
 Memotron isn't just about managing information - it's a tool for reflection, personal growth, and mental well-being. By providing a space to explore your inner world, process complex feelings, and gain deeper self-understanding, Memotron supports your journey towards a more fulfilling life.
