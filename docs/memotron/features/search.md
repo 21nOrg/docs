@@ -2,6 +2,9 @@
 title: Search
 sidebar_label: Search
 ---
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/memotron/features/search" />
 
 What’s the point of a digital memory system if we can’t retrieve the memory unit when we need it? Memotron’s search just works!
 

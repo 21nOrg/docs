@@ -100,6 +100,16 @@ function resolveNavBarItems() {
     });
   }
 
+  if (pages.includes("changelog")) {
+    items.push({
+      type: "docSidebar",
+      position: "left",
+      label: "Changelog",
+      docsPluginId: `${app}Changelog`,
+      sidebarId: `${app}ChangelogSidebar`,
+    });
+  }
+
   if (pages.includes("faqs")) {
     items.push({
       position: "left",
@@ -108,27 +118,17 @@ function resolveNavBarItems() {
     });
   }
 
-  if (pages.includes("changelog")) {
-    items.push({
-      type: "docSidebar",
-      position: "right",
-      label: "Changelog",
-      docsPluginId: `${app}Changelog`,
-      sidebarId: `${app}ChangelogSidebar`,
-    });
-  }
-
   items.push({
-    to: "/blog",
+    href: "https://blog.21n.org",
     label: "Blog",
-    position: "left",
+    position: "right",
   });
 
   return [
     ...items,
     {
       href: resolveAppUrl(),
-      label: "Go to app",
+      label: "Web app",
       position: "right",
       // className: "button button--secondary",
     },
@@ -324,15 +324,15 @@ const config = {
               redirects: [
                 {
                   from: "/changelog/memotron/new",
-                  to: "/changelog/memotron/2025/Q3/v0.61.2",
+                  to: "/changelog/memotron/2025/Q3/v0.61.3",
                 },
                 {
                   from: "/changelog/pointron/new",
-                  to: "/changelog/pointron/2025/Q3/v0.83.0",
+                  to: "/changelog/pointron/2025/Q3/v0.83.1",
                 },
                 {
                   from: "/changelog/nucleus/new",
-                  to: "/changelog/nucleus/2025/Q3/v0.3.1",
+                  to: "/changelog/nucleus/2025/Q3/v0.3.2",
                 },
                 {
                   from: "/changelog/clipper/new",

@@ -1,3 +1,8 @@
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/features/habits" />
+
+
 # Habits
 > Coming soon...
 

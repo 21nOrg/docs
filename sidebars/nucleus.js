@@ -48,6 +48,7 @@ const sidebars = {
             docs.nodes,
             "memotron/features/relations",
             "memotron/features/capture",
+            "memotron/features/calendar",
             "memotron/features/bird-view",
             "memotron/features/search",
           ],
@@ -58,6 +59,24 @@ const sidebars = {
       ],
     },
     docs.customization,
+    {
+      type: "html",
+      value: "Extensions",
+      className: "sidebar-section",
+    },
+    {
+      type: "category",
+      label: "Web Clipper",
+      link: {
+        type: "doc",
+        id: "memotron/web-clipper",
+      },
+      items: [
+        "memotron/web-clipper/text-clipping",
+        "memotron/web-clipper/social-clipping",
+        "memotron/web-clipper/kindle-sync",
+      ],
+    },
     // {
     //   type: "html",
     //   value: "Use cases",

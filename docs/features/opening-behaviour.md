@@ -1,7 +1,11 @@
 ---
-title: Opening Behaviour
-sidebar_label: Opening Behaviour
+title: Opening behaviour
+sidebar_label: Opening behaviour
 ---
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/features/opening-behaviour" />
+
 
 :::note
 
