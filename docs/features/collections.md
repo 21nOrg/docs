@@ -1,6 +1,9 @@
 ---
 sidebar_position: 3
 ---
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/features/collections" />
 
 # Collections
 

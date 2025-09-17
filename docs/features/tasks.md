@@ -1,3 +1,7 @@
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/features/tasks" />
+
 # Tasks
 Tasks are light-weight work that you want to complete which lasts for a short duration. Tasks are atomic and can be completed in a single step.
 

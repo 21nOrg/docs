@@ -53,6 +53,7 @@ const sidebars = {
         "memotron/features/relations",
         "memotron/features/capture",
         "memotron/features/bird-view",
+        "memotron/features/calendar",
         "memotron/features/search",
         "memotron/features/local-ai",
         "features/opening-behaviour",
