@@ -3,7 +3,7 @@ slug: built-to-last
 title: Built to last
 authors: [ar]
 tags: [native-newsletter, principles]
-date: 2025-07-25
+date: 2025-09-25
 draft: true
 description: >
   In this article, we'll explore how we built Memotron and Pointron to last. We'll also share some of the lessons we learned along the way.

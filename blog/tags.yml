@@ -18,6 +18,11 @@ launch:
   permalink: /launch
   description: All the new launches and updates from 21n
 
+design:
+  label: Design
+  permalink: /design
+  description: All about our design process and principles
+
 thoughts:
   label: Thoughts
   permalink: /thoughts

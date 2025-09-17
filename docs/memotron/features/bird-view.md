@@ -2,6 +2,9 @@
 title: Bird view
 sidebar_label: Bird view
 ---
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/memotron/features/bird-view" />
 
 To access bird view, open a node and click on `Bird view`.
 

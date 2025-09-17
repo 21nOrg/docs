@@ -1,7 +1,11 @@
 ---
 title: Relations
-sidebar_label: Relations (Link Tags)
+sidebar_label: Relations
 ---
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/memotron/features/relations" />
+
 > Previously known as **link tags**
 
 Use Relations to maintain relationships for connections that you make on Memotron.

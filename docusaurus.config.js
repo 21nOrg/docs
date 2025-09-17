@@ -51,8 +51,8 @@ function resolveNavBarItems() {
         position: "right",
       },
       {
-        href: "https://21native.substack.com/",
-        label: "Subscribe",
+        href: "/rss.xml",
+        label: "RSS feed",
         position: "right",
       },
     ];
@@ -100,6 +100,16 @@ function resolveNavBarItems() {
     });
   }
 
+  if (pages.includes("changelog")) {
+    items.push({
+      type: "docSidebar",
+      position: "left",
+      label: "Changelog",
+      docsPluginId: `${app}Changelog`,
+      sidebarId: `${app}ChangelogSidebar`,
+    });
+  }
+
   if (pages.includes("faqs")) {
     items.push({
       position: "left",
@@ -108,27 +118,17 @@ function resolveNavBarItems() {
     });
   }
 
-  if (pages.includes("changelog")) {
-    items.push({
-      type: "docSidebar",
-      position: "right",
-      label: "Changelog",
-      docsPluginId: `${app}Changelog`,
-      sidebarId: `${app}ChangelogSidebar`,
-    });
-  }
-
   items.push({
-    to: "/blog",
+    href: "https://blog.21n.org",
     label: "Blog",
-    position: "left",
+    position: "right",
   });
 
   return [
     ...items,
     {
       href: resolveAppUrl(),
-      label: "Go to app",
+      label: "Web app",
       position: "right",
       // className: "button button--secondary",
     },
@@ -324,19 +324,19 @@ const config = {
               redirects: [
                 {
                   from: "/changelog/memotron/new",
-                  to: "/changelog/memotron/2025/Q3/v0.61.0",
+                  to: "/changelog/memotron/2025/Q3/v0.61.3",
                 },
                 {
                   from: "/changelog/pointron/new",
-                  to: "/changelog/pointron/2025/Q3/v0.83.0",
+                  to: "/changelog/pointron/2025/Q3/v0.83.1",
                 },
                 {
                   from: "/changelog/nucleus/new",
-                  to: "/changelog/nucleus/2025/Q3/v0.3.0",
+                  to: "/changelog/nucleus/2025/Q3/v0.3.2",
                 },
                 {
                   from: "/changelog/clipper/new",
-                  to: "/changelog/clipper/2025/v0.57.2",
+                  to: "/changelog/clipper/2025/v0.58.0",
                 },
               ],
             },
@@ -355,24 +355,24 @@ const config = {
                 let content = fs.readFileSync(filePath, "utf8");
                 content = content.replace(
                   /<!--MEMOTRON_START-->[\s\S]*?<!--MEMOTRON_END-->/g,
-                  app === "memotron" ? "$&" : "",
+                  app === "memotron" ? "$&" : ""
                 );
                 content = content.replace(
                   /<!--POINTRON_START-->[\s\S]*?<!--POINTRON_END-->/g,
-                  app === "pointron" ? "$&" : "",
+                  app === "pointron" ? "$&" : ""
                 );
                 content = content.replace(
                   /<!--NUCLEUS_START-->[\s\S]*?<!--NUCLEUS_END-->/g,
-                  app === "nucleus" ? "$&" : "",
+                  app === "nucleus" ? "$&" : ""
                 );
                 content = content.replace(
                   /<!--DEFAULT_START-->[\s\S]*?<!--DEFAULT_END-->/g,
-                  app === "default" ? "$&" : "",
+                  app === "default" ? "$&" : ""
                 );
 
                 content = content.replace(
                   /<!--[A-Z_]+_START-->|<!--[A-Z_]+_END-->/g,
-                  "",
+                  ""
                 );
 
                 fs.writeFileSync(filePath, content);
@@ -382,7 +382,7 @@ const config = {
                   const path = require("path");
                   const filePath = path.join(__dirname, "docs/intro.md");
                   require("child_process").execSync(
-                    "git checkout -- " + filePath,
+                    "git checkout -- " + filePath
                   );
                 }
               },

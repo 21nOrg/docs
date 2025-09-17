@@ -2,6 +2,9 @@
 title: Nodes
 sidebar_label: Nodes
 ---
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/features/nodes" />
 
 Nodes are functional units in Memotron’s architecture of information. These form the building blocks for your digital memory. A node can take any form like text, image, audio, pdf etc. Exhaustive list of all forms of node are listed below.
 

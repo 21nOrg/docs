@@ -1,6 +1,5 @@
 team:
   name: Team 21n
-  title: From all of us at 21n
   url: https://github.com/21nOrg
   image_url: https://github.com/21nOrg.png
   email: hello@21n.org
@@ -33,7 +32,7 @@ sai:
   image_url: https://creatorspace.imgix.net/users/cljzvbp6j076yp101htzje0vc/fnVuVjn5LB3sTLYK-IMG_2087.heic?w=300&h=300
   email: sai@21n.org
   page:
-    permalink: '/all-from-saikiran'
+    permalink: "/all-from-saikiran"
   description: >
     Design lead focused on creating intuitive user experiences. Believes in the power of thoughtful design to solve complex problems.
   socials:
