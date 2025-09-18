@@ -4,6 +4,9 @@ sidebar_label: Combinations
 tags:
   - Coming soon
 ---
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/features/combinations" />
 
 > Combinations will be available from *Nucleus v0.2.0+*
 

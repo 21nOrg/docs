@@ -1,3 +1,7 @@
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/features/goals" />
+
 # Goals
 
 Goals are higher level objectives that you would like to achieve. Goals can be either indefinite or definite.

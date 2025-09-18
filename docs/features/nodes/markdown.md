@@ -2,6 +2,9 @@
 title: Markdown
 sidebar_label: Markdown
 ---
+import Canonical from '@site/src/components/Canonical';
+
+<Canonical path="/features/nodes/markdown" />
 
 # Markdown 
 
