@@ -336,7 +336,7 @@ const config = {
                 },
                 {
                   from: "/changelog/clipper/new",
-                  to: "/changelog/clipper/2025/v0.58.0",
+                  to: "/changelog/clipper/2025/v0.58.1",
                 },
               ],
             },
