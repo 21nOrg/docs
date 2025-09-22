@@ -81,7 +81,7 @@ module.exports = {
     {
       type: "link",
       label: "See clipper changelog",
-      href: "/changelog/clipper/2025/v0.58.0",
+      href: "/changelog/clipper/2025/v0.58.1",
     },
   ],
 };
