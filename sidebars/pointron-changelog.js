@@ -14,7 +14,7 @@ module.exports = {
       type: "category",
       label: "💥 What's new (v0.83)",
       collapsed: false,
-      items: ["2025/Q3/v0.83.1", "2025/Q3/v0.83.0"],
+      items: ["2025/Q3/v0.83.2", "2025/Q3/v0.83.1", "2025/Q3/v0.83.0"],
     },
     {
       type: "category",

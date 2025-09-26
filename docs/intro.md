@@ -40,15 +40,15 @@ import FeatureCards from '@site/src/components/FeatureCards';
 # Introduction
 > Memotron - our thoughtfully crafted tool for your memory and thinking assistance.
 
-Throughout history, great thinkers and innovators have relied on external tools to support their thought processes and navigate the complex world of ideas. From Leonardo da Vinci's notebooks to Marie Curie's journals, these aids have been crucial in extending our cognitive abilities beyond biological memory.
+Throughout history, human beings have relied on external tools to support their thought processes and navigate the complex world of ideas. From Leonardo da Vinci's notebooks to Marie Curie's journals, these aids have been crucial in extending our cognitive abilities beyond biological memory to fuel human progress.
 
-In our age of unprecedented information access and potential for intellectual growth, digital memory tools have become invaluable. **Memotron** is a super app that offers a **holistic and intuitive** approach to research, learning and thinking. Memotron seamlessly integrates into your daily lives, providing a powerful external memory aid. It supports cognitive processes, enhances creativity, promotes personal growth, and contributes to overall well-being.
+In our age of unprecedented information access and potential for intellectual growth, digital memory tools have become invaluable. **Memotron** is one such tool that offers a **holistic and intuitive** approach to digital memory, learning and thinking. Memotron is built in a way that it seamlessly integrates into your daily lives, providing a powerful external memory aid. It supports cognitive processes, and contributes to overall well-being.
 
-To put it into a single sentence, Memotron is an unbelievably powerful, insanely reliable, and surprisingly intuitive digital atlas for your memory.
+To put it into a single sentence, Memotron is a super app that is unbelievably powerful, insanely reliable, and surprisingly intuitive digital atlas for your memory.
 
 ## Why Memotron?
 
-Memotron isn't just another digital organizer or a PKM tool. We consciously crafted it keeping all our digital lives and workflows in mind. Read our [NCCL system](/memotron/core) to dive deeper into our design decisions and architecture.
+Memotron isn't just another digital organizer or a PKM tool. We consciously crafted it keeping all our digital lives and workflows in mind. Read our [NCCL system](/memotron/core) to dive deeper into our design decisions and information architecture.
 
 Memotron eliminates the need for you to constantly jump back and forth between different devices or applications. Say goodbye to shallow and siloed apps in favor of a wholesome experience. You can easily **replace 10+ apps and save ~ $100 a month** in subscription fees.
 
@@ -67,7 +67,7 @@ You can quickly compare Memotron with other apps [here](https://memotron.app/com
    4. Save Tweets, LinkedIn posts, and other social content from major platforms. See the list [here](/memotron/web-clipper/social-clipping).
    5. Sync Kindle books and highlights with a single click.
    6. Plug your memory into AI chats and NotebookLM notebooks _(coming soon)_.
-3. **Link to curate**: Organization captured information was always the challenging and most time-consuming process in knowledge management. But, not with Memotron. Memotron's direct linking and [link to curate](/memotron/core#link-to-curate) features makes organization indivisible from capture itself.
+3. **Link to curate**: Organization of captured information was always the challenging and most time-consuming process in knowledge management. But, its not the case with Memotron. Memotron's direct linking and [link to curate](/memotron/core#link-to-curate) features makes organization indivisible from capture itself.
 4. **Audio transcription, PDF highlighting and more**: Audio, PDF, web highlights etc are all first-class information in Memotron. This unlocks whole new possibilities of capturing and linking information.
 5. **Anti-productivity**: Don't get trapped into the anti-productivity design patterns encouraged by most of the PKM tools. Read more [here](/memotron/anti-productivity) on how we combat anti-productivity proactively.
 6. **Offline-first**: Memotron is a truly offline-first tool. You can use it without an internet connection and offline-only variant requires no cloud signup.
