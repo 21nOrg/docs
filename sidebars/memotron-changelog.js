@@ -15,6 +15,7 @@ module.exports = {
       label: "💥 What's new (v0.61)",
       collapsed: false,
       items: [
+        "2025/Q3/v0.61.4",
         "2025/Q3/v0.61.3",
         "2025/Q3/v0.61.2",
         "2025/Q3/v0.61.1",

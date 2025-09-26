@@ -324,15 +324,15 @@ const config = {
               redirects: [
                 {
                   from: "/changelog/memotron/new",
-                  to: "/changelog/memotron/2025/Q3/v0.61.3",
+                  to: "/changelog/memotron/2025/Q3/v0.61.4",
                 },
                 {
                   from: "/changelog/pointron/new",
-                  to: "/changelog/pointron/2025/Q3/v0.83.1",
+                  to: "/changelog/pointron/2025/Q3/v0.83.2",
                 },
                 {
                   from: "/changelog/nucleus/new",
-                  to: "/changelog/nucleus/2025/Q3/v0.3.2",
+                  to: "/changelog/nucleus/2025/Q3/v0.3.3",
                 },
                 {
                   from: "/changelog/clipper/new",
