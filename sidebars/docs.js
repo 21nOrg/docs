@@ -8,11 +8,11 @@ export const docs = {
       id: "features/collections",
     },
     items: [
-      "features/collections/simple",
-      "features/collections/typed",
-      "features/collections/query",
+      // "features/collections/simple",
+      // "features/collections/typed",
+      // "features/collections/query",
       "features/collections/views",
-      "features/collections/play-modes",
+      // "features/collections/play-modes",
     ],
   },
   nodes: {

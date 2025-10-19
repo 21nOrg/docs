@@ -15,7 +15,7 @@ Pointron full tutorial (v0.82):
 ### 1. Start by creating a new goal.
 You can create a new goal by going to Library -> Goals -> Create new goal.
 
-![alt image](../../src/images/pointron-docs/creategoal.png)
+![alt image](https://cdn.21n.org/pointron/docs/creategoal.png)
 
 ### 2. Create tasks and sub goals.
 Depending on your requirement, create tasks or sub goals inside a goal. If the goal is large, you can create sub goals inside a goal to break it down into smaller chunks.
@@ -23,19 +23,19 @@ Tasks are the smallest unit of work in Pointron. Use tasks for small and discret
 
 You can add tasks to a goal from a goal page or by going to Library -> Tasks -> Create new task.
 
-![alt image](../../src/images/pointron-docs/subgoals.png)
-![alt image](../../src/images/pointron-docs/tasks.png)
+![alt image](https://cdn.21n.org/pointron/docs/subgoals.png)
+![alt image](https://cdn.21n.org/pointron/docs/tasks.png)
 
 ### 3. Focus on your goals.
 Once goals and tasks are created, you can focus on your goals by navigating to Focus app menu. Choose quick focus or advanced mode based on your preference.
 
-![alt image](../../src/images/pointron-docs/focus.png)
+![alt image](https://cdn.21n.org/pointron/docs/focus.png)
 
 ### 4. Track your progress.
 You can track your progress by navigating to Analytics tab. Click on `Edit` button to configure charts and pages. You can also view your focus sessions, tasks in Calendar.
 
-![alt image](../../src/images/pointron-docs/analytics.png)
-<!-- ![alt image](../../src/images/pointron-docs/calendar.png) -->
+![alt image](https://cdn.21n.org/pointron/docs/analytics.png)
+<!-- ![alt image](https://cdn.21n.org/pointron/docs/calendar.png) -->
 
 
 

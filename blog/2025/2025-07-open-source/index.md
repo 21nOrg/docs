@@ -6,10 +6,10 @@ tags: [announcement, principles]
 date: 2025-07-09
 description: >
   We are going (back to) open source! Read through our journey of open source.
-image: https://cdn.21n.co/21n/blog/2025/openSource.png
+image: https://cdn.21n.org/21n/blog/2025/openSource.png
 ---
 <div>
-  <img class="rounded-md" src="https://cdn.21n.co/21n/blog/2025/openSource.png" width="100%" alt="Going open source" />
+  <img class="rounded-md" src="https://cdn.21n.org/21n/blog/2025/openSource.png" width="100%" alt="Going open source" />
 </div>
 
 

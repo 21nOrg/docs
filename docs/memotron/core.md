@@ -28,8 +28,6 @@ Tags provide a flexible way to categorize and filter your notes. They can be use
 
 # Core concepts
 
-The design decisions, user flow and the NCCL system - based on which Memotron is designed.
-
 Presented below are the details of the underlying method and design decisions that we took to build Memotron to be the best possible memory companion for humans.
 
 After giving much deeper thought and analyzing multitude of digital memory use cases, we have arrived at the below items as broad processes that are involved in digital memory or knowledge management.
@@ -44,21 +42,20 @@ After giving much deeper thought and analyzing multitude of digital memory use c
 
     2. For reflection / retrospection
 
-While capture is a straightforward definition that does not need any explanation, curation is where every note-taking method or tool differs. How we achieve curation can significantly make or break/slow down our digital memory management process. Retrieval is a side effect of Curation. If we manage to do curation well, retrieval will take care of itself.
 
-## Traditional approach
+### Capture: The elephant in the room
 
-### The elephant in the room: Capture
+While the definition of capture is very obvious, modern tools marketed as memory or knowledge management solutions often lack robust capturing mechanisms. In fact analog systems are much better in some cases for capturing information efficiently. By efficiency, we mean how frictionless the process of capturing is in every situation and how fast can we capture. After all, capturing involves not just taking notes in a classroom or sitting at our desks in our office, it also involves capturing our fleeting thoughts and ideas while we are driving in a car or taking a stroll on a sidewalk.
 
-While the definition of capture is very obvious, modern tools marketed to provide memory or knowledge management as their solution often lack robust capturing mechanisms. In fact analog systems are much better in some cases for capturing information efficiently. By efficiency, we mean how frictionless the process of capturing is and how fast can we do it. After all, capturing involves not just taking notes in a classroom or sitting at our desks in our office, it also involves capturing our fleeting thoughts and ideas while we are driving in a car or taking a stroll on a sidewalk.
+### Curation & Retrieval
 
-### The traditional approach to curation
+How we achieve curation can significantly make or break/slow down our digital memory management process. Many of the traditional curation methods can be ineffective and non-scalable. Read this one very useful [article](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125) written by David B Clear, which describes traditional curation methods and compares it with Zettlekasten method. While Memotron supports Zettlekasten method, it is not limited to it. Read the information architecture section below to understand the capability of what you can do with Memotron.
 
-When we sat down to describe all the traditional methods of curation, We remembered the one very useful [article](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125) written by David B Clear, which describes traditional curation methods and compares it with Zettlekasten method. Please give it a read [here](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125) to understand how some of the traditional curation methods can be ineffective and non-scalable.
+Retrieval is a side effect of Curation. If we manage to do curation well, retrieval will take care of itself.
 
 ---
 
-# NCCL system
+## NCCL system
 
 > _"Node - Collection - Combination - Linking system."_
 
@@ -67,7 +64,7 @@ If you have read the article mentioned above, you might naturally wonder if NCCL
 
 ### Hierarchy
 
-NCCL system is composed of the following as its hierarchy of curation.
+Below items form the hierarchy of information in this system.
 
 1. Node
 
@@ -75,17 +72,17 @@ NCCL system is composed of the following as its hierarchy of curation.
 
 3. Combination
 
-![alt image](../../src/images/memotron-docs/core-concepts-hierarchy.png)
+![alt image](https://cdn.21n.org/memotron/docs/core-concepts-hierarchy.png)
 
 ### Node
 
-A Node is the functional unit in this method. It can be a markdown file, an image, a text clip etc. It can be as short as a web link to as long as a very long manuscript written as markdown.
+A Node is the functional unit in this method. It can be a markdown file, an image, a text bookmark, a kindle book highlight etc. It can be as short as a web link to as long as a very long manuscript written as markdown.
 
 ### Collection
 
 A collection as the name suggests is a collection of nodes. It can be homogenous or heterogenous. If homogenous, it can have common properties assigned to each node.
 
-Collections will become really handy if we want to collect specific types of data together.
+Collections are really handy if we want to collect specific types of data together.
 
 Examples:
 
@@ -99,7 +96,7 @@ Examples:
 
 ### Combination
 
-A combination is another type of curation which can have any of node, collection or other combinations in it. Combinations are useful to combine frequently accessed items together.
+Combination is the highest level of curation which can have any of node, collection or other combinations in it. Combinations are useful to combine frequently accessed items together.
 
 Examples:
 
@@ -109,7 +106,7 @@ Examples:
 
 ## Linking
 
-### Link to curate
+### Link to curate, direct linking
 
 Link to curate is the ability to add a new piece of information to the memory destination point without actually visiting the destination. Zettlekasten method’s foundation is based on this principle.
 
@@ -123,8 +120,9 @@ Link to curate using direct linking also makes it possible to add new items to c
 
 Nodularity is pushing link to curate to next level. It is the ability to link a new piece of information to any part of the node, in this case Markdown. That means, if we have a very long manuscript, we can link the new idea or research information to exact sub heading or section that the information is relevant to.
 
-### Link tags
+### Relations
+> Previously called as Link tags
 
-Link tags is a way to maintain relationships for links. Imagine I have 100 data points for an article that I am writing. Now with link tags, I can easily mark few of those data points as ```weight:8``` or ```status:completed``` or ```relation:against``` etc.
+Relation is a way to maintain relationships for links. Imagine you have 100 data points for an article that you are writing. Now with relations, you can easily mark few of those data points as ```weight:8``` or ```status:completed``` or ```relation:against``` etc.
 
-*Updated on January 11, 2025, 3:48 AM UTC*
+*Updated on October 19, 2025*

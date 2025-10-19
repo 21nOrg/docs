@@ -4,9 +4,15 @@ sidebar_label: Typed
 ---
 # Typed collections
 
-Typed collection gives the ability to collect homogenous information with certain common attributes.
+Collection gives the ability to collect homogenous information with certain common attributes.
 
 Ex: People, Bookmarks, Movies, Books, Wander list, Bucket list, Product Ideas, Content ideas, Quotes, Recipes etc
+
+Or use collections to collect anything without the need to worry about advanced capabilities like assigning properties etc.
+
+Simple collections can be handy to collect any kind of information which doesn’t have much common attributes to them.
+
+Ex: Random memes, Cool websites, thoughts, ideas, photography collection etc.
 
 
 <!-- :::tip
