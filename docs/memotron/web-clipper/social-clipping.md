@@ -1,9 +1,9 @@
 ---
 title: Social clipping
 sidebar_label: Social clipping
-image: https://cdn.21n.co/memotron/docs/socialClipping.png
+image: https://cdn.21n.org/memotron/docs/socialClipping.png
 ---
-![](https://cdn.21n.co/memotron/docs/socialClipping.png)
+![](https://cdn.21n.org/memotron/docs/socialClipping.png)
 
 # Social clipping
 
@@ -20,6 +20,6 @@ __Supported platforms:__
 
 ## Example usage
 
-![alt image](../../../src/images/memotron-docs/tweet-clipping.webp)
+![alt image](https://cdn.21n.org/memotron/docs/tweet-clipping.webp)
 
 *Updated on January 11, 2025, 3:48 AM UTC*

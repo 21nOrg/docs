@@ -11,8 +11,8 @@ Please follow these steps to sync your kindle books and highlights to Memotron.
 
 3. Once you are on Notes & Highlights page, Memotron toolbar will show sync option as shown in the images below.
 
-![alt image](../../../src/images/memotron-docs/kindle-sync-1.webp)
+![alt image](https://cdn.21n.org/memotron/docs/kindle-sync-1.webp)
 
-![alt image](../../../src/images/memotron-docs/kindle-sync-2.webp)
+![alt image](https://cdn.21n.org/memotron/docs/kindle-sync-2.webp)
 
 *Updated on January 11, 2025, 3:48 AM UTC*

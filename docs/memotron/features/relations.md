@@ -31,21 +31,21 @@ You can add relations while clipping using the Clipper extension or from the lin
 ### From clipper
 Once you clip anything and add a link, click on the linked node to add relations as shown in the picture below.
 
-![alt image](../../../src/images/memotron-docs/link-tags-from-clipper.webp)
+![alt image](https://cdn.21n.org/memotron/docs/link-tags-from-clipper.webp)
 
 ### From node links panel
 
 Simply click on the tag button and add relations.
 
-![alt image](../../../src/images/memotron-docs/link-tags-from-node-like-pnel.webp)
+![alt image](https://cdn.21n.org/memotron/docs/link-tags-from-node-like-pnel.webp)
 
 --- 
 
 ## Utilizing relations
 Once added, you can make use of relations by using them as filters in node links panel or visually grouping connections on node bird view.
 
-![alt image](../../../src/images/memotron-docs/link-tags-util-tags-1.webp)
+![alt image](https://cdn.21n.org/memotron/docs/link-tags-util-tags-1.webp)
 
-![alt image](../../../src/images/memotron-docs/link-tags-util-tags-2.webp)
+![alt image](https://cdn.21n.org/memotron/docs/link-tags-util-tags-2.webp)
 
 *Updated on January 11, 2025, 3:48 AM UTC*

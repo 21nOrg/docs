@@ -6,12 +6,18 @@ require("dotenv").config();
 const { themes } = require("prism-react-renderer");
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
-const cdnUrl = "https://cdn.21n.co";
+const cdnUrl = process.env.CDN_URL ?? "https://cdn.21n.org";
 
 function resolveApp() {
   const app = process.env.APP_NAME || "pointron";
   console.log("app", app);
   return app.toLowerCase();
+}
+
+function resolveStaticAsset(fileName) {
+  const app = resolveApp();
+  if (app === "nativeblog") return `${cdnUrl}/21n/blog/${fileName}`;
+  return `${cdnUrl}/${app}/${fileName}`;
 }
 
 function isBlogOnlyMode() {
@@ -143,47 +149,22 @@ const titleConfig = {
   memotron: {
     title: "Memotron",
     tagline: "Your memory atlas",
-    favicon: "img/memotron.ico",
-    logo: {
-      light: "img/memotron-light.png",
-      dark: "img/memotron-dark.png",
-    },
   },
   pointron: {
     title: "Pointron",
     tagline: "Your focus haven",
-    favicon: "img/pointron.ico",
-    logo: {
-      light: "img/pointron-light.png",
-      dark: "img/pointron-dark.png",
-    },
   },
   nucleus: {
     title: "Nucleus",
     tagline: "Your digital harmony",
-    favicon: "img/nucleus.ico",
-    logo: {
-      light: "img/nucleus-light.png",
-      dark: "img/nucleus-dark.png",
-    },
   },
   nativeblog: {
     title: "21n blog",
     tagline: "21st century native",
-    favicon: "img/21n.ico",
-    logo: {
-      light: "img/21n-blog-light.png",
-      dark: "img/21n-blog-dark.png",
-    },
   },
   default: {
     title: "21n",
     tagline: "21st century native",
-    favicon: "img/21n.ico",
-    logo: {
-      light: "img/21n-light.png",
-      dark: "img/21n-dark.png",
-    },
   },
 };
 
@@ -191,7 +172,7 @@ const titleConfig = {
 const config = {
   title: titleConfig[resolveApp()]?.title || titleConfig.default.title,
   tagline: titleConfig[resolveApp()]?.tagline || titleConfig.default.tagline,
-  favicon: titleConfig[resolveApp()]?.favicon || titleConfig.default.favicon,
+  favicon: resolveStaticAsset("favicon.ico"),
 
   // Set the production url of your site here
   url: process.env.SITE_URL || "https://docs.memotron.app",
@@ -324,19 +305,19 @@ const config = {
               redirects: [
                 {
                   from: "/changelog/memotron/new",
-                  to: "/changelog/memotron/2025/Q3/v0.61.4",
+                  to: "/changelog/memotron/2025/Q4/v0.62.0",
                 },
                 {
                   from: "/changelog/pointron/new",
-                  to: "/changelog/pointron/2025/Q3/v0.83.2",
+                  to: "/changelog/pointron/2025/Q4/v0.83.3",
                 },
                 {
                   from: "/changelog/nucleus/new",
-                  to: "/changelog/nucleus/2025/Q3/v0.3.3",
+                  to: "/changelog/nucleus/2025/Q4/v0.3.4",
                 },
                 {
                   from: "/changelog/clipper/new",
-                  to: "/changelog/clipper/2025/v0.58.1",
+                  to: "/changelog/clipper/2025/v0.58.2",
                 },
               ],
             },
@@ -424,12 +405,8 @@ const config = {
         title: "",
         logo: {
           alt: "Logo",
-          src:
-            titleConfig[resolveApp()]?.logo?.light ||
-            titleConfig.default.logo.light,
-          srcDark:
-            titleConfig[resolveApp()]?.logo?.dark ||
-            titleConfig.default.logo.dark,
+          src: resolveStaticAsset("docs/header-light.png"),
+          srcDark: resolveStaticAsset("docs/header-dark.png"),
         },
         items: resolveNavBarItems(),
       },
@@ -465,14 +442,14 @@ const config = {
       tagName: "meta",
       attributes: {
         property: "og:image",
-        content: `${cdnUrl}/${resolveApp()}/ogDefault.png`,
+        content: resolveStaticAsset("ogDefault.png"),
       },
     },
     {
       tagName: "meta",
       attributes: {
         name: "twitter:image",
-        content: `${cdnUrl}/${resolveApp()}/ogDefault.png`,
+        content: resolveStaticAsset("ogDefault.png"),
       },
     },
   ],

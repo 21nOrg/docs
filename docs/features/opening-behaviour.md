@@ -7,13 +7,9 @@ import Canonical from '@site/src/components/Canonical';
 <Canonical path="/features/opening-behaviour" />
 
 
-:::note
 
-A resource can be anything - Node, Collection or a Combination.
+Use the below shortcuts to open any resource either in library or from pinned resoure page. A resource can be anything - Node, Collection or a Combination.
 
-:::
-
-Quick open shortcuts
 
 | Opening behavior          | Shortcut                |
 |:--------------------------|:------------------------|
@@ -38,4 +34,4 @@ Use Alt + Click to quickly open resources even during search. This way, you can 
 ## Full screen
 If you want to focus a particular resource and you don’t want anything to come in the way, use ```Open in full screen``` option from the context menu or use ```Shift + Click``` shortcut.
 
-*Updated on January 11, 2025, 3:48 AM UTC*
+*Updated on October 19, 2025*
