@@ -7,18 +7,17 @@ This is our public roadmap of all features and sub features that we will be buil
 
 
 ## Up next
-
-### v0.3.0
+> Nov - Dec 2025
+- Query collections
+  - Filters and sorting in collections
+  - Content templates and settings
 - Side nav combination
-
-
-### Later
 - Calendar
   - Column view
   - Classic - heatmap layout
-- Event syncing - existing calendars
-- Time blocking and backlog
+
+See [Pointron roadmap](/pointron/roadmap) for focus related roadmap and [Memotron roadmap](/memotron/roadmap) for memory related roadmap.
 
 ---
 
-*Updated on July 12, 2025*
+*Updated on October 18, 2025*

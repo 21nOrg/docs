@@ -9,16 +9,16 @@ import Canonical from '@site/src/components/Canonical';
 Nodes are functional units in Memotron’s architecture of information. These form the building blocks for your digital memory. A node can take any form like text, image, audio, pdf etc. Exhaustive list of all forms of node are listed below.
 
 
-| Node Type                  | Description & Features | Capture/Clipping Methods      |
+| Node Type                  | Description & Features | [Capture](/memotron/features/capture) / [Clipping](/memotron/web-clipper) methods      |
 |:---------------------------|:-----------------------|:------------------------------|
-| Markdown                 |                       | Capture                      |
-| Image                    |                       | Capture, clip screenshots, upload |
-| Audio                    | Transcription         | Capture, upload              |
-| PDF                      | Annotation           | Capture, upload              |
-| Video                    |                       | Capture, upload              |
-| File                     |                       | Upload                        |
-| Sketch                   |                       | Capture (on tablets)         |
-| Web Page                 |                       | Clip, capture                |
+| Markdown                 |                       | Capture, upload, paste |
+| Image                    |                       | Capture, clip, upload, paste |
+| Audio                    | Transcription         | Capture, upload, paste              |
+| PDF                      | Annotation           | Capture, upload, paste              |
+| Video                    |                       | Capture, upload, paste              |
+| File                     |                       | Upload, paste                        |
+| Sketch                   |                       | Capture         |
+| Web Page                 |                       | Capture, clip, upload, paste                |
 | Web Clip                 |                       | Clip                          |
 | YouTube Video            |                       | Clip                          |
 | YouTube Video Clip       |                       | Clip                          |
@@ -32,4 +32,4 @@ Nodes are functional units in Memotron’s architecture of information. These fo
 | LinkedIn Post (Soon)     |                       | Clip                          |
 | LinkedIn Profile (Soon)  |                       | Clip                          |
 
-*Updated on January 11, 2025, 3:48 AM UTC*
+*Updated on October 18, 2025*

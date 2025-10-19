@@ -1,7 +1,7 @@
 ---
 title: From Pocket
 sidebar_label: Pocket
-image: https://cdn.21n.co/memotron/docs/switchFromPocket.png
+image: https://cdn.21n.org/memotron/docs/switchFromPocket.png
 ---
 
 ## Guide to import your Pocket data

@@ -7,9 +7,10 @@ module.exports = {
     },
     {
       type: "doc",
-      label: "💥 What's new (v0.3.3)",
-      id: "2025/Q3/v0.3.3",
+      label: "💥 What's new (v0.3.4)",
+      id: "2025/Q4/v0.3.4",
     },
+    "2025/Q3/v0.3.3",
     "2025/Q3/v0.3.2",
     "2025/Q3/v0.3.1",
     "2025/Q3/v0.3.0",
@@ -23,7 +24,7 @@ module.exports = {
     {
       type: "link",
       label: "See clipper changelog",
-      href: "/changelog/clipper/2025/v0.58.1",
+      href: "/changelog/clipper/2025/v0.58.2",
     },
   ],
 };

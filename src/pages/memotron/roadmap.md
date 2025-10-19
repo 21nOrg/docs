@@ -7,32 +7,28 @@ This is our public roadmap of all features and sub features that we will be buil
 
 
 ## Up next
+> Nov - Dec 2025
+- Add from web
+- Sketch capture
+- Bookmarking in audio nodes
+- Annotation on image based nodes
+- API
+- Markdown - layout blocks
+- watchOS audio capture
 
-### v0.62.0
-> Sept 2025
+### Up next (Clipper extension)
+- Plug your memory
+- Annotation on screenshot clip
+- Video clipping on all major video platforms
+- Youtube channel clip
+- Full app functionality on extension
+- Offline-only version
 
-* PDF improvements, PDF clips as first class nodes
-* Node custom preview image
-* iOS share
-* Add from web
-* Markdown improvements
-
-
-### Later
-* End to end encryption for cloud sync plan
-* watchOS audio capture
-* Query collections, filters and sorting in collections
-* Calendar - heatmap layout
-* Summarizers
-  
 ---
 ## Planned
 > All features that are planned but not yet scheduled for a release.
 
 ### Node
-- Audio timestamping
-- Markdown - layout blocks
-- Sketch capture
 - Forking
 - Full history and versioning
 - Node bird view
@@ -46,8 +42,6 @@ This is our public roadmap of all features and sub features that we will be buil
 
 
 ### Collection
-- Query Collections
-- Content templates - typed collection
 - Advanced views - Map, Calendar, Table, Timeline
 - Flashcards
 - Slideshow
@@ -56,17 +50,13 @@ This is our public roadmap of all features and sub features that we will be buil
 
 
 ### Clipping
-- Plug your memory
 - General clipping
     - Spotify
         - Save a song
         - Save a playlist
     - Podcast clipping
     - Everand (Scribd) clipping
-- Youtube channel clip
 - Amazon items clipping
-- Annotation on screenshot clip
-- Offline-only version
 - Clipper sync
     - Goodreads books, quotes
     - IMDB watchlist
@@ -84,7 +74,7 @@ This is our public roadmap of all features and sub features that we will be buil
         - Instagram bookmarks bulk import
         - Youtube playlist import
 
-## More
+### More
 - Managed AI using credits
 - Custom AI models using user's API key
 - Public API, MCP (Model Control Protocol) server
@@ -93,7 +83,6 @@ This is our public roadmap of all features and sub features that we will be buil
   - G drive
   - Dropbox
   - Apple cloud
-- Robust security and privacy measures
 - Importing
   - Md files
   - CSV
@@ -107,7 +96,6 @@ This is our public roadmap of all features and sub features that we will be buil
 - Sharing
 - Links suggestions
 - 3rd party Integrations
-- Full app functionality in the extension - capture, collections etc.
 - Distribution
   - watch apps (Audio capture)
   - TV apps (Retrospection features)
@@ -127,4 +115,4 @@ This is our public roadmap of all features and sub features that we will be buil
     - More...
 
 ---
-*Updated on Aug 23, 2025*
+*Updated on October 18, 2025*
