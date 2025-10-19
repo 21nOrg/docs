@@ -11,9 +11,13 @@ module.exports = {
       className: "sidebar-section sidebar-section-first-item",
     },
     {
+      type: "doc",
+      label: "💥 What's new (v0.62.0)",
+      id: "2025/Q4/v0.62.0",
+    },
+    {
       type: "category",
-      label: "💥 What's new (v0.61)",
-      collapsed: false,
+      label: "v0.61",
       items: [
         "2025/Q3/v0.61.4",
         "2025/Q3/v0.61.3",
@@ -82,7 +86,7 @@ module.exports = {
     {
       type: "link",
       label: "See clipper changelog",
-      href: "/changelog/clipper/2025/v0.58.1",
+      href: "/changelog/clipper/2025/v0.58.2",
     },
   ],
 };

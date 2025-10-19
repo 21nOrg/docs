@@ -5,21 +5,17 @@ title: Pointron roadmap
 This is our public roadmap of all features and sub features that we will be building in the upcoming months.
 
 ## Up next
-
-### v0.82.x
-> July 2025
-- Reliability and performance improvements
-- Other small improvements and bug fixes
-
-
-### Later
-* End to end encryption for cloud sync plan
-* Query collections, filters and sorting in collections
-* Calendar - heatmap layout
-* watchOS app
-* iOS and watchOS widgets
+> Nov - Dec 2025
+- Analytics view in Collection
+- Events and event syncing - existing calendars
+- Time blocking
+- Integrations
+  - Github
+  - Linear
+- iOS and watchOS widgets
   - Live widget for running focus
   - Analytics widget
+- watchOS app
 
 
 ---
@@ -64,4 +60,4 @@ This is our public roadmap of all features and sub features that we will be buil
 - VisionOS app
 
 ---
-*Updated on July 12, 2025*
+*Updated on October 18, 2025*

@@ -13,7 +13,7 @@ Alongside daily notes, you can also create monthly and yearly notes. This will s
 
 To add monthly or yearly notes, click on `Year view` in the calendar and then click on month or year labels in the view.
 
-![Monthly and yearly notes](../../../src/images/memotron-changelog/monthly_notes.gif)
+![Monthly and yearly notes](https://cdn.21n.org/memotron/docs/monthly-notes.gif)
 
 
 
@@ -22,7 +22,7 @@ You can also create templates for daily, monthly and yearly notes. When you clic
 
 To edit templates, click on settings button on the top right corner of Calendar page.
 
-![Calendar notes templates](../../../src/images/memotron-changelog/daily-notes-template.png)
+![Calendar notes templates](https://cdn.21n.org/memotron/changelog/daily-notes-template.png)
 
 
 *Updated on September 16, 2025*

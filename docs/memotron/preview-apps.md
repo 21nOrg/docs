@@ -42,7 +42,7 @@ If you are excited about what’s coming next and would like to help us report a
 
 ## Chrome extension
 
-1. Download the extension preview version by clicking [here](../../src/images/memotron-docs/memotron-clipper-v0.56.4-build-3%20(1).zip) . (Please wait for 4-5 secs for the auto download to start)
+1. Download the extension preview version by clicking [here](https://cdn.21n.org/memotron/docs/memotron-clipper-v0.56.4-build-3%20(1).zip) . (Please wait for 4-5 secs for the auto download to start)
 
 2. Open your browser
 
@@ -56,11 +56,11 @@ If you are excited about what’s coming next and would like to help us report a
 
     2. OR - Click on options on the top right corner, then click on,Extensions → Manage Extension
 
-![Alt text](../../src/images/memotron-docs/preview-app-chrome-ext-1.webp)
+![Alt text](https://cdn.21n.org/memotron/docs/preview-app-chrome-ext-1.webp)
 
 4. In the Extensions page enable Developer Mode, you can the toggle for it on the top right corner
 
-![Alt text](../../src/images/memotron-docs/preview-app-chrome-ext-2.webp)
+![Alt text](https://cdn.21n.org/memotron/docs/preview-app-chrome-ext-2.webp)
 
 5. Once enabled, you can drag and drop the downloaded file to the extension page.
 

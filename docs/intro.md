@@ -13,7 +13,7 @@ slug: /
 # SEO
 # description: "Page description"   # Meta description for SEO
 # keywords: [keywords, for, seo]    # Meta keywords for SEO
-image: https://cdn.21n.co/21n/ogDefault.png            # Social card images
+image: https://cdn.21n.org/21n/ogDefault.png            # Social card images
 
 # Navigation
 # pagination_label: Custom label    # Used in prev/next navigation
@@ -36,7 +36,7 @@ import FeatureCards from '@site/src/components/FeatureCards';
 
 <!--MEMOTRON_START-->
 
-![Memotron og image](https://cdn.21n.co/memotron/ogImage.png)
+![Memotron og image](https://cdn.21n.org/memotron/ogImage.png)
 # Introduction
 > Memotron - our thoughtfully crafted tool for your memory and thinking assistance.
 
@@ -52,7 +52,7 @@ Memotron isn't just another digital organizer or a PKM tool. We consciously craf
 
 Memotron eliminates the need for you to constantly jump back and forth between different devices or applications. Say goodbye to shallow and siloed apps in favor of a wholesome experience. You can easily **replace 10+ apps and save ~ $100 a month** in subscription fees.
 
-![Comparison of chaos vs Memotron](../src/images/memotron-docs/wholesome-mirror-3.png)
+![Comparison of chaos vs Memotron](https://cdn.21n.org/memotron/docs/wholesome-mirror-3.png)
 
 You can quickly compare Memotron with other apps [here](https://memotron.app/compare).
 
@@ -113,7 +113,7 @@ _Learn more about our principles here:_
 
 
 <!--POINTRON_START-->
-![](https://cdn.21n.co/pointron/ogImage.png)
+![](https://cdn.21n.org/pointron/ogImage.png)
 # Introduction
 
 Welcome to Pointron - your focus haven for productive work 🎯 ✨
@@ -133,7 +133,7 @@ Ready to transform the way you work? Dive into our [Quick start guide](/pointron
 <!--POINTRON_END-->
 
 <!--NUCLEUS_START-->
-![](https://cdn.21n.co/nucleus/screensBanner.png)
+![](https://cdn.21n.org/nucleus/screensBanner.png)
 # Introduction
 
 Welcome to Nucleus! While we're working on improving our docs, please navigate to next sections to dive deep into concepts of Nucleus.
